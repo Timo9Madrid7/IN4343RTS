@@ -1,0 +1,1326 @@
+
+SchedTest.elf:     file format elf32-msp430
+
+SYMBOL TABLE:
+00004000 l    d  .text	00000000 .text
+00001100 l    d  .data	00000000 .data
+00001102 l    d  .bss	00000000 .bss
+0000ffe0 l    d  .vectors	00000000 .vectors
+00000000 l    d  .stab	00000000 .stab
+00000000 l    d  .stabstr	00000000 .stabstr
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_pubnames	00000000 .debug_pubnames
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000130 l       *ABS*	00000000 MPY
+00000132 l       *ABS*	00000000 MPYS
+00000134 l       *ABS*	00000000 MAC
+00000136 l       *ABS*	00000000 MACS
+00000138 l       *ABS*	00000000 OP2
+0000013a l       *ABS*	00000000 RESLO
+0000013c l       *ABS*	00000000 RESHI
+0000013e l       *ABS*	00000000 SUMEXT
+00000020 l       *ABS*	00000000 P1IN
+00000021 l       *ABS*	00000000 P1OUT
+00000022 l       *ABS*	00000000 P1DIR
+00000023 l       *ABS*	00000000 P1IFG
+00000024 l       *ABS*	00000000 P1IES
+00000025 l       *ABS*	00000000 P1IE
+00000026 l       *ABS*	00000000 P1SEL
+00000028 l       *ABS*	00000000 P2IN
+00000029 l       *ABS*	00000000 P2OUT
+0000002a l       *ABS*	00000000 P2DIR
+0000002b l       *ABS*	00000000 P2IFG
+0000002c l       *ABS*	00000000 P2IES
+0000002d l       *ABS*	00000000 P2IE
+0000002e l       *ABS*	00000000 P2SEL
+00000018 l       *ABS*	00000000 P3IN
+00000019 l       *ABS*	00000000 P3OUT
+0000001a l       *ABS*	00000000 P3DIR
+0000001b l       *ABS*	00000000 P3SEL
+0000001c l       *ABS*	00000000 P4IN
+0000001d l       *ABS*	00000000 P4OUT
+0000001e l       *ABS*	00000000 P4DIR
+0000001f l       *ABS*	00000000 P4SEL
+00000030 l       *ABS*	00000000 P5IN
+00000031 l       *ABS*	00000000 P5OUT
+00000032 l       *ABS*	00000000 P5DIR
+00000033 l       *ABS*	00000000 P5SEL
+00000034 l       *ABS*	00000000 P6IN
+00000035 l       *ABS*	00000000 P6OUT
+00000036 l       *ABS*	00000000 P6DIR
+00000037 l       *ABS*	00000000 P6SEL
+00000070 l       *ABS*	00000000 U0CTL
+00000071 l       *ABS*	00000000 U0TCTL
+00000072 l       *ABS*	00000000 U0RCTL
+00000073 l       *ABS*	00000000 U0MCTL
+00000074 l       *ABS*	00000000 U0BR0
+00000075 l       *ABS*	00000000 U0BR1
+00000076 l       *ABS*	00000000 U0RXBUF
+00000077 l       *ABS*	00000000 U0TXBUF
+00000070 l       *ABS*	00000000 UCTL
+00000071 l       *ABS*	00000000 UTCTL
+00000072 l       *ABS*	00000000 URCTL
+00000073 l       *ABS*	00000000 UMCTL
+00000074 l       *ABS*	00000000 UBR0
+00000075 l       *ABS*	00000000 UBR1
+00000076 l       *ABS*	00000000 RXBUF
+00000077 l       *ABS*	00000000 TXBUF
+00000070 l       *ABS*	00000000 UCTL0
+00000071 l       *ABS*	00000000 UTCTL0
+00000072 l       *ABS*	00000000 URCTL0
+00000073 l       *ABS*	00000000 UMCTL0
+00000074 l       *ABS*	00000000 UBR00
+00000075 l       *ABS*	00000000 UBR10
+00000076 l       *ABS*	00000000 RXBUF0
+00000077 l       *ABS*	00000000 TXBUF0
+00000070 l       *ABS*	00000000 UCTL_0
+00000071 l       *ABS*	00000000 UTCTL_0
+00000072 l       *ABS*	00000000 URCTL_0
+00000073 l       *ABS*	00000000 UMCTL_0
+00000074 l       *ABS*	00000000 UBR0_0
+00000075 l       *ABS*	00000000 UBR1_0
+00000076 l       *ABS*	00000000 RXBUF_0
+00000077 l       *ABS*	00000000 TXBUF_0
+00000050 l       *ABS*	00000000 I2CIE
+00000051 l       *ABS*	00000000 I2CIFG
+00000052 l       *ABS*	00000000 I2CNDAT
+00000071 l       *ABS*	00000000 I2CTCTL
+00000072 l       *ABS*	00000000 I2CDCTL
+00000073 l       *ABS*	00000000 I2CPSC
+00000074 l       *ABS*	00000000 I2CSCLH
+00000075 l       *ABS*	00000000 I2CSCLL
+00000076 l       *ABS*	00000000 I2CDRB
+00000076 l       *ABS*	00000000 I2CDRW
+00000118 l       *ABS*	00000000 I2COA
+0000011a l       *ABS*	00000000 I2CSA
+0000011c l       *ABS*	00000000 I2CIV
+00000076 l       *ABS*	00000000 I2CDR
+00000078 l       *ABS*	00000000 U1CTL
+00000079 l       *ABS*	00000000 U1TCTL
+0000007a l       *ABS*	00000000 U1RCTL
+0000007b l       *ABS*	00000000 U1MCTL
+0000007c l       *ABS*	00000000 U1BR0
+0000007d l       *ABS*	00000000 U1BR1
+0000007e l       *ABS*	00000000 U1RXBUF
+0000007f l       *ABS*	00000000 U1TXBUF
+00000078 l       *ABS*	00000000 UCTL1
+00000079 l       *ABS*	00000000 UTCTL1
+0000007a l       *ABS*	00000000 URCTL1
+0000007b l       *ABS*	00000000 UMCTL1
+0000007c l       *ABS*	00000000 UBR01
+0000007d l       *ABS*	00000000 UBR11
+0000007e l       *ABS*	00000000 RXBUF1
+0000007f l       *ABS*	00000000 TXBUF1
+00000078 l       *ABS*	00000000 UCTL_1
+00000079 l       *ABS*	00000000 UTCTL_1
+0000007a l       *ABS*	00000000 URCTL_1
+0000007b l       *ABS*	00000000 UMCTL_1
+0000007c l       *ABS*	00000000 UBR0_1
+0000007d l       *ABS*	00000000 UBR1_1
+0000007e l       *ABS*	00000000 RXBUF_1
+0000007f l       *ABS*	00000000 TXBUF_1
+00000055 l       *ABS*	00000000 SVSCTL
+00000128 l       *ABS*	00000000 FCTL1
+0000012a l       *ABS*	00000000 FCTL2
+0000012c l       *ABS*	00000000 FCTL3
+00000059 l       *ABS*	00000000 CACTL1
+0000005a l       *ABS*	00000000 CACTL2
+0000005b l       *ABS*	00000000 CAPD
+0000012e l       *ABS*	00000000 TA0IV
+00000160 l       *ABS*	00000000 TA0CTL
+00000170 l       *ABS*	00000000 TA0R
+00000162 l       *ABS*	00000000 TA0CCTL0
+00000164 l       *ABS*	00000000 TA0CCTL1
+00000172 l       *ABS*	00000000 TA0CCR0
+00000174 l       *ABS*	00000000 TA0CCR1
+00000166 l       *ABS*	00000000 TA0CCTL2
+00000176 l       *ABS*	00000000 TA0CCR2
+0000011e l       *ABS*	00000000 TBIV
+00000180 l       *ABS*	00000000 TBCTL
+00000190 l       *ABS*	00000000 TBR
+00000182 l       *ABS*	00000000 TBCCTL0
+00000184 l       *ABS*	00000000 TBCCTL1
+00000186 l       *ABS*	00000000 TBCCTL2
+00000192 l       *ABS*	00000000 TBCCR0
+00000194 l       *ABS*	00000000 TBCCR1
+00000196 l       *ABS*	00000000 TBCCR2
+00000188 l       *ABS*	00000000 TBCCTL3
+0000018a l       *ABS*	00000000 TBCCTL4
+0000018c l       *ABS*	00000000 TBCCTL5
+0000018e l       *ABS*	00000000 TBCCTL6
+00000198 l       *ABS*	00000000 TBCCR3
+0000019a l       *ABS*	00000000 TBCCR4
+0000019c l       *ABS*	00000000 TBCCR5
+0000019e l       *ABS*	00000000 TBCCR6
+00000056 l       *ABS*	00000000 DCOCTL
+00000057 l       *ABS*	00000000 BCSCTL1
+00000058 l       *ABS*	00000000 BCSCTL2
+000001a0 l       *ABS*	00000000 ADC12CTL0
+000001a2 l       *ABS*	00000000 ADC12CTL1
+000001a4 l       *ABS*	00000000 ADC12IFG
+000001a6 l       *ABS*	00000000 ADC12IE
+000001a8 l       *ABS*	00000000 ADC12IV
+00000140 l       *ABS*	00000000 ADC12MEM0
+00000142 l       *ABS*	00000000 ADC12MEM1
+00000144 l       *ABS*	00000000 ADC12MEM2
+00000146 l       *ABS*	00000000 ADC12MEM3
+00000148 l       *ABS*	00000000 ADC12MEM4
+0000014a l       *ABS*	00000000 ADC12MEM5
+0000014c l       *ABS*	00000000 ADC12MEM6
+0000014e l       *ABS*	00000000 ADC12MEM7
+00000150 l       *ABS*	00000000 ADC12MEM8
+00000152 l       *ABS*	00000000 ADC12MEM9
+00000154 l       *ABS*	00000000 ADC12MEM10
+00000156 l       *ABS*	00000000 ADC12MEM11
+00000158 l       *ABS*	00000000 ADC12MEM12
+0000015a l       *ABS*	00000000 ADC12MEM13
+0000015c l       *ABS*	00000000 ADC12MEM14
+0000015e l       *ABS*	00000000 ADC12MEM15
+00000080 l       *ABS*	00000000 ADC12MCTL0
+00000081 l       *ABS*	00000000 ADC12MCTL1
+00000082 l       *ABS*	00000000 ADC12MCTL2
+00000083 l       *ABS*	00000000 ADC12MCTL3
+00000084 l       *ABS*	00000000 ADC12MCTL4
+00000085 l       *ABS*	00000000 ADC12MCTL5
+00000086 l       *ABS*	00000000 ADC12MCTL6
+00000087 l       *ABS*	00000000 ADC12MCTL7
+00000088 l       *ABS*	00000000 ADC12MCTL8
+00000089 l       *ABS*	00000000 ADC12MCTL9
+0000008a l       *ABS*	00000000 ADC12MCTL10
+0000008b l       *ABS*	00000000 ADC12MCTL11
+0000008c l       *ABS*	00000000 ADC12MCTL12
+0000008d l       *ABS*	00000000 ADC12MCTL13
+0000008e l       *ABS*	00000000 ADC12MCTL14
+0000008f l       *ABS*	00000000 ADC12MCTL15
+000001c0 l       *ABS*	00000000 DAC12_0CTL
+000001c2 l       *ABS*	00000000 DAC12_1CTL
+000001c8 l       *ABS*	00000000 DAC12_0DAT
+000001ca l       *ABS*	00000000 DAC12_1DAT
+00000122 l       *ABS*	00000000 DMACTL0
+00000124 l       *ABS*	00000000 DMACTL1
+000001e0 l       *ABS*	00000000 DMA0CTL
+000001e2 l       *ABS*	00000000 DMA0SA
+000001e4 l       *ABS*	00000000 DMA0DA
+000001e6 l       *ABS*	00000000 DMA0SZ
+000001e8 l       *ABS*	00000000 DMA1CTL
+000001ea l       *ABS*	00000000 DMA1SA
+000001ec l       *ABS*	00000000 DMA1DA
+000001ee l       *ABS*	00000000 DMA1SZ
+000001f0 l       *ABS*	00000000 DMA2CTL
+000001f2 l       *ABS*	00000000 DMA2SA
+000001f4 l       *ABS*	00000000 DMA2DA
+000001f6 l       *ABS*	00000000 DMA2SZ
+00000120 l       *ABS*	00000000 WDTCTL
+00000000 l       *ABS*	00000000 IE1
+00000002 l       *ABS*	00000000 IFG1
+00000001 l       *ABS*	00000000 IE2
+00000003 l       *ABS*	00000000 IFG2
+00000004 l       *ABS*	00000000 ME1
+00000005 l       *ABS*	00000000 ME2
+00000000 l    df *ABS*	00000000 SchedTest.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Led.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Clock.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Context.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00001102 l     O .bss	00000001 CurrentContext
+00001104 l     O .bss	00000005 Contexts
+00000000 l    df *ABS*	00000000 SchedulerOnline.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Scheduler_P_FP.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Scheduler_P_EDF.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 TimeTracking.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+0000110a l     O .bss	00000004 StartTimes
+0000110e l     O .bss	00000004 Totals
+00001112 l     O .bss	00000001 JobsExecuted
+00000002 g       *ABS*	00000000 __data_size
+000042cc g     F .text	000000a2 RegisterTask
+0000427c g     F .text	00000016 ResumeContext
+0000424c g     F .text	00000018 InitClock
+00004496 g     F .text	0000000c StartTracking
+0000422c g     F .text	0000000a InitLeds
+00004036 g     F .text	00000018 CountDelay
+000044ea g       .text	00000000 _etext
+00000070 g       *ABS*	00000000 __bss_size
+000044b8 g     F .text	00000006 AddJobExecution
+00004030 g       .text	00000000 _unexpected_1_
+00001100 g     O .data	00000002 minPeriod
+00004030  w      .text	00000000 vector_ffe0
+00001114 g     O .bss	00000001 minAt
+0000440a g     F .text	0000008a Scheduler_P_FP
+00004494 g     F .text	00000002 Scheduler_P_EDF
+00004384 g       .text	00000000 vector_ffec
+00004030  w      .text	00000000 vector_fff0
+000044ea g       *ABS*	00000000 __data_load_start
+00004030 g       .text	00000000 __dtors_end
+00004030  w      .text	00000000 vector_fffc
+000041f0 g     F .text	0000003c BlinkYellow
+00004030  w      .text	00000000 vector_ffe4
+00004246 g     F .text	00000006 ToggleLeds
+00004236 g     F .text	00000010 SetLeds
+0000ffe0 g     O .vectors	00000020 InterruptVectors
+0000436e g     F .text	00000016 UnRegisterTask
+00004264 g     F .text	00000018 ContextSwitch
+000041b4 g     F .text	0000003c BlinkGreen
+0000401c  w      .text	00000000 __do_clear_bss
+00004384 g     F .text	00000086 TimerIntrpt
+00004030  w      .text	00000000 vector_ffe2
+00004030  w      .text	00000000 vector_ffe8
+00004034  w      .text	00000000 _unexpected_
+00004030  w      .text	00000000 vector_fffa
+00001116 g     O .bss	0000005a Tasks
+00004000  w      .text	00000000 _reset_vector__
+00004030 g       .text	00000000 __ctors_start
+0000400a  w      .text	00000000 __do_copy_data
+0000404e g     F .text	00000020 CountRealtimeDelay
+00001102 g       .bss	00000000 __bss_start
+00004030  w      .text	00000000 vector_ffee
+00004030  w      .text	00000000 vector_fff4
+0000406e g     F .text	0000010a main
+00004030  w      .text	00000000 vector_fff8
+000044be g     F .text	0000002c PrintResults
+00004030  w      .text	00000000 vector_fff2
+00004178 g     F .text	0000003c BlinkRed
+00010000 g       .vectors	00000000 _vectors_end
+00004030  w      .text	00000000 vector_ffe6
+00004292 g     F .text	00000006 IntDisable
+00001170 g     O .bss	00000002 NextInterruptTime
+00004000  w      .text	00000000 __init_stack
+00004030 g       .text	00000000 __dtors_start
+00004030 g       .text	00000000 __ctors_end
+00003900 g       *ABS*	00000000 __stack
+00001102 g       .data	00000000 _edata
+00001172 g       .bss	00000000 _end
+00004030  w      .text	00000000 vector_fff6
+00004004  w      .text	00000000 __low_level_init
+0000402c  w      .text	00000000 __jump_to_main
+0000429c g     F .text	00000030 InitTasks
+00001100 g       .data	00000000 __data_start
+00004030  w      .text	00000000 vector_ffea
+000044a2 g     F .text	00000016 StopTracking
+00004298 g     F .text	00000004 RestoreSW
+
+
+
+Disassembly of section .text:
+
+00004000 <__init_stack>:
+    4000:	31 40 00 39 	mov	#14592,	r1	;#0x3900
+
+00004004 <__low_level_init>:
+    4004:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    4008:	20 01 
+
+0000400a <__do_copy_data>:
+    400a:	3f 40 02 00 	mov	#2,	r15	;#0x0002
+    400e:	0f 93       	tst	r15		
+    4010:	05 24       	jz	$+12     	;abs 0x401c
+    4012:	2f 83       	decd	r15		
+    4014:	9f 4f ea 44 	mov	17642(r15),4352(r15);0x44ea(r15), 0x1100(r15)
+    4018:	00 11 
+    401a:	fb 23       	jnz	$-8      	;abs 0x4012
+
+0000401c <__do_clear_bss>:
+    401c:	3f 40 70 00 	mov	#112,	r15	;#0x0070
+    4020:	0f 93       	tst	r15		
+    4022:	04 24       	jz	$+10     	;abs 0x402c
+    4024:	1f 83       	dec	r15		
+    4026:	cf 43 02 11 	mov.b	#0,	4354(r15);r3 As==00, 0x1102(r15)
+    402a:	fc 23       	jnz	$-6      	;abs 0x4024
+
+0000402c <__jump_to_main>:
+    402c:	30 40 6e 40 	br	#0x406e	
+
+00004030 <__ctors_end>:
+    4030:	30 40 34 40 	br	#0x4034	
+
+00004034 <_unexpected_>:
+    4034:	00 13       	reti			
+
+00004036 <CountDelay>:
+#define YELLOWBLINKPRIO 0
+#define GREENBLINKPRIO  1
+#define REDBLINKPRIO    2
+
+void CountDelay (volatile uint16_t cnt)
+{
+    4036:	21 83       	decd	r1		
+    4038:	81 4f 00 00 	mov	r15,	0(r1)	;0x0000(r1)
+  while (cnt--);
+    403c:	2f 41       	mov	@r1,	r15	
+    403e:	0e 4f       	mov	r15,	r14	
+    4040:	3e 53       	add	#-1,	r14	;r3 As==11
+    4042:	81 4e 00 00 	mov	r14,	0(r1)	;0x0000(r1)
+    4046:	0f 93       	tst	r15		
+    4048:	f9 23       	jnz	$-12     	;abs 0x403c
+}
+    404a:	21 53       	incd	r1		
+    404c:	30 41       	ret			
+
+0000404e <CountRealtimeDelay>:
+void CountRealtimeDelay (uint16_t Ticks)
+{
+  uint16_t TicksPassed = 0;
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+    404e:	0f 5f       	rla	r15		
+    4050:	0f 5f       	rla	r15		
+
+  OldTAR = TAR; // store current value of TAR
+    4052:	1d 42 70 01 	mov	&0x0170,r13	
+    4056:	0e 43       	clr	r14		
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+    4058:	07 3c       	jmp	$+16     	;abs 0x4068
+  {
+    if (OldTAR != TAR) // a new value of TAR exists, thus a tick has occured
+    405a:	1c 42 70 01 	mov	&0x0170,r12	
+    405e:	0d 9c       	cmp	r12,	r13	
+    4060:	fc 27       	jz	$-6      	;abs 0x405a
+    {
+      TicksPassed++; // increment ticks counter
+    4062:	1e 53       	inc	r14		
+      OldTAR = TAR; // store new value of TAR as old value
+    4064:	1d 42 70 01 	mov	&0x0170,r13	
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+
+  OldTAR = TAR; // store current value of TAR
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+    4068:	0e 9f       	cmp	r15,	r14	
+    406a:	f7 2b       	jnc	$-16     	;abs 0x405a
+    {
+      TicksPassed++; // increment ticks counter
+      OldTAR = TAR; // store new value of TAR as old value
+    }
+  }
+}
+    406c:	30 41       	ret			
+
+0000406e <main>:
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (RED, 0);
+}
+
+int main(void) 
+{ 
+    406e:	31 40 00 39 	mov	#14592,	r1	;#0x3900
+  WDTCTL = WDTPW + WDTHOLD;       // Stop watchdog timer 
+    4072:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    4076:	20 01 
+  
+  InitClock ();
+    4078:	b0 12 4c 42 	call	#0x424c	
+
+  InitLeds (RED | GREEN | YELLOW | WHITE | BROWN | PURPLE);
+    407c:	7f 40 77 00 	mov.b	#119,	r15	;#0x0077
+    4080:	b0 12 2c 42 	call	#0x422c	
+  RegisterTask (0, 1024, 150, BlinkRed, REDBLINKPRIO, 0);
+#endif
+
+#ifdef TstSweep
+  // note: there 1024 ticks in second
+  RegisterTask (0, 1024, 350, BlinkYellow, 0, 0); 
+    4084:	43 12       	push.b	#0		;r3 As==00
+    4086:	43 12       	push.b	#0		;r3 As==00
+    4088:	3c 40 f0 41 	mov	#16880,	r12	;#0x41f0
+    408c:	3d 40 5e 01 	mov	#350,	r13	;#0x015e
+    4090:	3e 40 00 04 	mov	#1024,	r14	;#0x0400
+    4094:	0f 43       	clr	r15		
+    4096:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 512, 140, BlinkGreen, 1, 0);
+    409a:	43 12       	push.b	#0		;r3 As==00
+    409c:	53 12       	push.b	#1		;r3 As==01
+    409e:	3c 40 b4 41 	mov	#16820,	r12	;#0x41b4
+    40a2:	3d 40 8c 00 	mov	#140,	r13	;#0x008c
+    40a6:	3e 40 00 02 	mov	#512,	r14	;#0x0200
+    40aa:	0f 43       	clr	r15		
+    40ac:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 256, 30, BlinkRed, 2, 0);
+    40b0:	43 12       	push.b	#0		;r3 As==00
+    40b2:	63 12       	push.b	#2		;r3 As==10
+    40b4:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    40b8:	3d 40 1e 00 	mov	#30,	r13	;#0x001e
+    40bc:	3e 40 00 01 	mov	#256,	r14	;#0x0100
+    40c0:	0f 43       	clr	r15		
+    40c2:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 128, 10, BlinkRed, 3, 0);
+    40c6:	43 12       	push.b	#0		;r3 As==00
+    40c8:	70 12 03 00 	push.b	#3		;#0x0003
+    40cc:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    40d0:	3d 40 0a 00 	mov	#10,	r13	;#0x000a
+    40d4:	3e 40 80 00 	mov	#128,	r14	;#0x0080
+    40d8:	0f 43       	clr	r15		
+    40da:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 256, 2, BlinkRed, 4, 0);
+    40de:	43 12       	push.b	#0		;r3 As==00
+    40e0:	70 12 04 00 	push.b	#4		;#0x0004
+    40e4:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    40e8:	2d 43       	mov	#2,	r13	;r3 As==10
+    40ea:	3e 40 00 01 	mov	#256,	r14	;#0x0100
+    40ee:	0f 43       	clr	r15		
+    40f0:	b0 12 cc 42 	call	#0x42cc	
+
+  RegisterTask (0, 1024, 10, BlinkYellow, 5, 0); 
+    40f4:	43 12       	push.b	#0		;r3 As==00
+    40f6:	70 12 05 00 	push.b	#5		;#0x0005
+    40fa:	3c 40 f0 41 	mov	#16880,	r12	;#0x41f0
+    40fe:	3d 40 0a 00 	mov	#10,	r13	;#0x000a
+    4102:	3e 40 00 04 	mov	#1024,	r14	;#0x0400
+    4106:	0f 43       	clr	r15		
+    4108:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 512, 10, BlinkGreen, 6, 0);
+    410c:	43 12       	push.b	#0		;r3 As==00
+    410e:	70 12 06 00 	push.b	#6		;#0x0006
+    4112:	3c 40 b4 41 	mov	#16820,	r12	;#0x41b4
+    4116:	3d 40 0a 00 	mov	#10,	r13	;#0x000a
+    411a:	3e 40 00 02 	mov	#512,	r14	;#0x0200
+    411e:	0f 43       	clr	r15		
+    4120:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 256, 5, BlinkRed, 7, 0);
+    4124:	43 12       	push.b	#0		;r3 As==00
+    4126:	70 12 07 00 	push.b	#7		;#0x0007
+    412a:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    412e:	3d 40 05 00 	mov	#5,	r13	;#0x0005
+    4132:	3e 40 00 01 	mov	#256,	r14	;#0x0100
+    4136:	0f 43       	clr	r15		
+    4138:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 128, 5, BlinkRed, 8, 0);
+    413c:	31 50 20 00 	add	#32,	r1	;#0x0020
+    4140:	43 12       	push.b	#0		;r3 As==00
+    4142:	70 12 08 00 	push.b	#8		;#0x0008
+    4146:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    414a:	3d 40 05 00 	mov	#5,	r13	;#0x0005
+    414e:	3e 40 80 00 	mov	#128,	r14	;#0x0080
+    4152:	0f 43       	clr	r15		
+    4154:	b0 12 cc 42 	call	#0x42cc	
+  RegisterTask (0, 256, 2, BlinkRed, 9, 0);
+    4158:	43 12       	push.b	#0		;r3 As==00
+    415a:	70 12 09 00 	push.b	#9		;#0x0009
+    415e:	3c 40 78 41 	mov	#16760,	r12	;#0x4178
+    4162:	2d 43       	mov	#2,	r13	;r3 As==10
+    4164:	3e 40 00 01 	mov	#256,	r14	;#0x0100
+    4168:	0f 43       	clr	r15		
+    416a:	b0 12 cc 42 	call	#0x42cc	
+#endif
+
+
+  _EINT();                        // Enable interrupts
+    416e:	32 d2       	eint			
+    4170:	31 52       	add	#8,	r1	;r2 As==11
+
+  while(1) {
+    EnterLowPowerMode3(); // idle task, set to low power mode 3 
+    4172:	32 c0 d0 00 	bic	#208,	r2	;#0x00d0
+    4176:	fd 3f       	jmp	$-4      	;abs 0x4172
+
+00004178 <BlinkRed>:
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (GREEN, 0);
+}
+
+void BlinkRed (uint16_t ExecutionTime)
+{
+    4178:	0b 12       	push	r11		
+    417a:	0b 4f       	mov	r15,	r11	
+  SetLeds (RED, 1);
+    417c:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    417e:	7f 40 10 00 	mov.b	#16,	r15	;#0x0010
+    4182:	b0 12 36 42 	call	#0x4236	
+void CountRealtimeDelay (uint16_t Ticks)
+{
+  uint16_t TicksPassed = 0;
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+    4186:	0f 4b       	mov	r11,	r15	
+    4188:	0f 5f       	rla	r15		
+    418a:	0f 5f       	rla	r15		
+
+  OldTAR = TAR; // store current value of TAR
+    418c:	1d 42 70 01 	mov	&0x0170,r13	
+    4190:	0e 43       	clr	r14		
+    4192:	07 3c       	jmp	$+16     	;abs 0x41a2
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+  {
+    if (OldTAR != TAR) // a new value of TAR exists, thus a tick has occured
+    4194:	1c 42 70 01 	mov	&0x0170,r12	
+    4198:	0d 9c       	cmp	r12,	r13	
+    419a:	fc 27       	jz	$-6      	;abs 0x4194
+    {
+      TicksPassed++; // increment ticks counter
+    419c:	1e 53       	inc	r14		
+      OldTAR = TAR; // store new value of TAR as old value
+    419e:	1d 42 70 01 	mov	&0x0170,r13	
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+
+  OldTAR = TAR; // store current value of TAR
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+    41a2:	0e 9f       	cmp	r15,	r14	
+    41a4:	f7 2b       	jnc	$-16     	;abs 0x4194
+
+void BlinkRed (uint16_t ExecutionTime)
+{
+  SetLeds (RED, 1);
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (RED, 0);
+    41a6:	4e 43       	clr.b	r14		
+    41a8:	7f 40 10 00 	mov.b	#16,	r15	;#0x0010
+    41ac:	b0 12 36 42 	call	#0x4236	
+}
+    41b0:	3b 41       	pop	r11		
+    41b2:	30 41       	ret			
+
+000041b4 <BlinkGreen>:
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (YELLOW, 0);
+}
+
+void BlinkGreen (uint16_t ExecutionTime)
+{
+    41b4:	0b 12       	push	r11		
+    41b6:	0b 4f       	mov	r15,	r11	
+  SetLeds (GREEN, 1);
+    41b8:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    41ba:	7f 40 20 00 	mov.b	#32,	r15	;#0x0020
+    41be:	b0 12 36 42 	call	#0x4236	
+void CountRealtimeDelay (uint16_t Ticks)
+{
+  uint16_t TicksPassed = 0;
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+    41c2:	0f 4b       	mov	r11,	r15	
+    41c4:	0f 5f       	rla	r15		
+    41c6:	0f 5f       	rla	r15		
+
+  OldTAR = TAR; // store current value of TAR
+    41c8:	1d 42 70 01 	mov	&0x0170,r13	
+    41cc:	0e 43       	clr	r14		
+    41ce:	07 3c       	jmp	$+16     	;abs 0x41de
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+  {
+    if (OldTAR != TAR) // a new value of TAR exists, thus a tick has occured
+    41d0:	1c 42 70 01 	mov	&0x0170,r12	
+    41d4:	0d 9c       	cmp	r12,	r13	
+    41d6:	fc 27       	jz	$-6      	;abs 0x41d0
+    {
+      TicksPassed++; // increment ticks counter
+    41d8:	1e 53       	inc	r14		
+      OldTAR = TAR; // store new value of TAR as old value
+    41da:	1d 42 70 01 	mov	&0x0170,r13	
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+
+  OldTAR = TAR; // store current value of TAR
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+    41de:	0e 9f       	cmp	r15,	r14	
+    41e0:	f7 2b       	jnc	$-16     	;abs 0x41d0
+
+void BlinkGreen (uint16_t ExecutionTime)
+{
+  SetLeds (GREEN, 1);
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (GREEN, 0);
+    41e2:	4e 43       	clr.b	r14		
+    41e4:	7f 40 20 00 	mov.b	#32,	r15	;#0x0020
+    41e8:	b0 12 36 42 	call	#0x4236	
+}
+    41ec:	3b 41       	pop	r11		
+    41ee:	30 41       	ret			
+
+000041f0 <BlinkYellow>:
+    }
+  }
+}
+
+void BlinkYellow (uint16_t ExecutionTime)
+{
+    41f0:	0b 12       	push	r11		
+    41f2:	0b 4f       	mov	r15,	r11	
+  SetLeds (YELLOW, 1);
+    41f4:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    41f6:	7f 40 40 00 	mov.b	#64,	r15	;#0x0040
+    41fa:	b0 12 36 42 	call	#0x4236	
+void CountRealtimeDelay (uint16_t Ticks)
+{
+  uint16_t TicksPassed = 0;
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+    41fe:	0f 4b       	mov	r11,	r15	
+    4200:	0f 5f       	rla	r15		
+    4202:	0f 5f       	rla	r15		
+
+  OldTAR = TAR; // store current value of TAR
+    4204:	1d 42 70 01 	mov	&0x0170,r13	
+    4208:	0e 43       	clr	r14		
+    420a:	07 3c       	jmp	$+16     	;abs 0x421a
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+  {
+    if (OldTAR != TAR) // a new value of TAR exists, thus a tick has occured
+    420c:	1c 42 70 01 	mov	&0x0170,r12	
+    4210:	0d 9c       	cmp	r12,	r13	
+    4212:	fc 27       	jz	$-6      	;abs 0x420c
+    {
+      TicksPassed++; // increment ticks counter
+    4214:	1e 53       	inc	r14		
+      OldTAR = TAR; // store new value of TAR as old value
+    4216:	1d 42 70 01 	mov	&0x0170,r13	
+  uint16_t OldTAR;
+
+  Ticks *= 4; // multiply by 4, to get ms approximately!
+
+  OldTAR = TAR; // store current value of TAR
+  while (TicksPassed < Ticks) // continue until all ticks have passed
+    421a:	0e 9f       	cmp	r15,	r14	
+    421c:	f7 2b       	jnc	$-16     	;abs 0x420c
+
+void BlinkYellow (uint16_t ExecutionTime)
+{
+  SetLeds (YELLOW, 1);
+  CountRealtimeDelay(ExecutionTime);
+  SetLeds (YELLOW, 0);
+    421e:	4e 43       	clr.b	r14		
+    4220:	7f 40 40 00 	mov.b	#64,	r15	;#0x0040
+    4224:	b0 12 36 42 	call	#0x4236	
+}
+    4228:	3b 41       	pop	r11		
+    422a:	30 41       	ret			
+
+0000422c <InitLeds>:
+#include <iomacros.h>
+#include "Led.h"
+
+void InitLeds (uint8_t Colors)
+{
+  LEDDIR |= Colors;
+    422c:	c2 df 32 00 	bis.b	r15,	&0x0032	
+  LEDPIN = 0;
+    4230:	c2 43 31 00 	mov.b	#0,	&0x0031	;r3 As==00
+}
+    4234:	30 41       	ret			
+
+00004236 <SetLeds>:
+
+void SetLeds (uint8_t Colors, uint8_t On)
+{
+  if (On) LEDPIN |= Colors;
+    4236:	4e 93       	tst.b	r14		
+    4238:	03 24       	jz	$+8      	;abs 0x4240
+    423a:	c2 df 31 00 	bis.b	r15,	&0x0031	
+    423e:	30 41       	ret			
+  else    LEDPIN &= ~Colors;
+    4240:	c2 cf 31 00 	bic.b	r15,	&0x0031	
+    4244:	30 41       	ret			
+
+00004246 <ToggleLeds>:
+}
+
+void ToggleLeds (uint8_t Colors)
+{
+  LEDPIN ^= Colors;
+    4246:	c2 ef 31 00 	xor.b	r15,	&0x0031	
+}
+    424a:	30 41       	ret			
+
+0000424c <InitClock>:
+
+#define ACLOCK    32768  /* rate of the Aclock                               */
+
+void InitClock (void)
+{
+	TACTL  = TASSEL0 + TACLR + ID0 + ID1 + TAIE; /* ACLK, clear TAR, set clock divider at 8 */
+    424c:	b2 40 c6 01 	mov	#454,	&0x0160	;#0x01c6
+    4250:	60 01 
+	TACCR0   = 0;  /* start first interrupt right away     */
+    4252:	82 43 72 01 	mov	#0,	&0x0172	;r3 As==00
+	TACCTL0  = CCIE;            /* CCR0 interrupt enabled                        */
+    4256:	b2 40 10 00 	mov	#16,	&0x0162	;#0x0010
+    425a:	62 01 
+	TACTL |= MC1;		    /* Start Timer_a in continious mode */  
+    425c:	b2 d0 20 00 	bis	#32,	&0x0160	;#0x0020
+    4260:	60 01 
+}
+    4262:	30 41       	ret			
+
+00004264 <ContextSwitch>:
+static uint8_t Contexts[NUMTASKS];
+static uint8_t CurrentContext = 0;
+
+void ContextSwitch()
+{
+	Contexts[CurrentContext] = LEDPIN; // store current context
+    4264:	5f 42 02 11 	mov.b	&0x1102,r15	
+    4268:	4e 4f       	mov.b	r15,	r14	
+    426a:	de 42 31 00 	mov.b	&0x0031,4356(r14);0x1104(r14)
+    426e:	04 11 
+	CurrentContext++;
+    4270:	5f 53       	inc.b	r15		
+    4272:	c2 4f 02 11 	mov.b	r15,	&0x1102	
+	// TODO set this to 0xFF for leds
+	LEDPIN = 0; // disable all leds
+    4276:	c2 43 31 00 	mov.b	#0,	&0x0031	;r3 As==00
+}
+    427a:	30 41       	ret			
+
+0000427c <ResumeContext>:
+
+void ResumeContext()
+{
+	CurrentContext--;
+    427c:	5f 42 02 11 	mov.b	&0x1102,r15	
+    4280:	7f 53       	add.b	#-1,	r15	;r3 As==11
+    4282:	c2 4f 02 11 	mov.b	r15,	&0x1102	
+	LEDPIN = Contexts[CurrentContext]; // resume context
+    4286:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    4288:	3f 50 04 11 	add	#4356,	r15	;#0x1104
+    428c:	e2 4f 31 00 	mov.b	@r15,	&0x0031	
+}
+    4290:	30 41       	ret			
+
+00004292 <IntDisable>:
+
+uint16_t IntDisable (void)
+{
+  uint16_t sw;
+    // sw = r2
+  asm volatile ("mov.w r2, %0\n\t" : "=r"(sw));
+    4292:	0f 42       	mov	r2,	r15	
+  _DINT();
+    4294:	32 c2       	dint			
+  return (sw);
+}
+    4296:	30 41       	ret			
+
+00004298 <RestoreSW>:
+
+void RestoreSW (uint16_t sw)
+{
+    // r2 = sw
+  asm volatile ("mov.w %0, r2\n\t" :: "r"(sw));
+    4298:	02 4f       	mov	r15,	r2	
+}  
+    429a:	30 41       	ret			
+
+0000429c <InitTasks>:
+ * Should be called with interrupt disabled.
+ * The clock must be started elsewhere.
+ */
+
+void InitTasks (void)
+{			
+    429c:	6e 42       	mov.b	#4,	r14	;r2 As==10
+  uint8_t i=NUMTASKS-1; 
+  do { 
+    Taskp t = &Tasks[i];
+    429e:	4f 4e       	mov.b	r14,	r15	
+    42a0:	0f 5f       	rla	r15		
+    42a2:	0f 5f       	rla	r15		
+    42a4:	0f 5f       	rla	r15		
+    42a6:	0f 5f       	rla	r15		
+    42a8:	4d 4e       	mov.b	r14,	r13	
+    42aa:	0d 5d       	rla	r13		
+    42ac:	0f 5d       	add	r13,	r15	
+    42ae:	3f 50 16 11 	add	#4374,	r15	;#0x1116
+    t->Flags = t->Activated = t->Invoked = 0;
+    42b2:	cf 43 09 00 	mov.b	#0,	9(r15)	;r3 As==00, 0x0009(r15)
+    42b6:	cf 43 08 00 	mov.b	#0,	8(r15)	;r3 As==00, 0x0008(r15)
+    42ba:	5d 4f 08 00 	mov.b	8(r15),	r13	;0x0008(r15)
+    42be:	7d f3       	and.b	#-1,	r13	;r3 As==11
+    42c0:	8f 4d 0a 00 	mov	r13,	10(r15)	;0x000a(r15)
+  } while (i--);
+    42c4:	7e 53       	add.b	#-1,	r14	;r3 As==11
+    42c6:	7e 93       	cmp.b	#-1,	r14	;r3 As==11
+    42c8:	ea 23       	jnz	$-42     	;abs 0x429e
+}
+    42ca:	30 41       	ret			
+
+000042cc <RegisterTask>:
+ * Each priority level has at most one task.
+ */
+
+uint8_t RegisterTask (uint16_t Phasing, uint16_t Period, uint16_t ExecutionTime,
+                      void (*TaskFunc) (uint16_t), uint8_t Prio, uint8_t Flags)
+{
+    42cc:	0b 12       	push	r11		
+    42ce:	0a 12       	push	r10		
+    42d0:	09 12       	push	r9		
+    42d2:	08 12       	push	r8		
+    42d4:	05 12       	push	r5		
+    42d6:	05 41       	mov	r1,	r5	
+    42d8:	35 50 0c 00 	add	#12,	r5	;#0x000c
+    42dc:	69 45       	mov.b	@r5,	r9	
+    42de:	58 45 02 00 	mov.b	2(r5),	r8	;0x0002(r5)
+  uint16_t sw;
+
+  Phasing *= 4; // correct to get ms approximately
+  Period *=4; // correct to get ms approximately
+
+  if (Prio>=NUMTASKS) return (E_BOUNDS); // out of bounds
+    42e2:	79 90 05 00 	cmp.b	#5,	r9	;#0x0005
+    42e6:	02 28       	jnc	$+6      	;abs 0x42ec
+    42e8:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    42ea:	3b 3c       	jmp	$+120    	;abs 0x4362
+{
+  uint8_t  rtc = E_SUCCESS;
+  uint16_t sw;
+
+  Phasing *= 4; // correct to get ms approximately
+  Period *=4; // correct to get ms approximately
+    42ec:	0e 5e       	rla	r14		
+    42ee:	0e 5e       	rla	r14		
+
+  if (Prio>=NUMTASKS) return (E_BOUNDS); // out of bounds
+  if (Period == 0) return (E_WRONGPAR);
+    42f0:	0e 93       	tst	r14		
+    42f2:	03 20       	jnz	$+8      	;abs 0x42fa
+    42f4:	7f 40 05 00 	mov.b	#5,	r15	;#0x0005
+    42f8:	34 3c       	jmp	$+106    	;abs 0x4362
+
+uint16_t IntDisable (void)
+{
+  uint16_t sw;
+    // sw = r2
+  asm volatile ("mov.w r2, %0\n\t" : "=r"(sw));
+    42fa:	05 42       	mov	r2,	r5	
+  _DINT();
+    42fc:	32 c2       	dint			
+  Period *=4; // correct to get ms approximately
+
+  if (Prio>=NUMTASKS) return (E_BOUNDS); // out of bounds
+  if (Period == 0) return (E_WRONGPAR);
+  sw = IntDisable (); 
+  Taskp t = &Tasks[Prio]; 
+    42fe:	4b 49       	mov.b	r9,	r11	
+    4300:	0b 5b       	rla	r11		
+    4302:	0b 5b       	rla	r11		
+    4304:	0b 5b       	rla	r11		
+    4306:	0b 5b       	rla	r11		
+    4308:	4a 49       	mov.b	r9,	r10	
+    430a:	0a 5a       	rla	r10		
+    430c:	0b 5a       	add	r10,	r11	
+    430e:	3b 50 16 11 	add	#4374,	r11	;#0x1116
+  if (t->Flags) rtc = E_BUSY; 
+    4312:	1a 4b 0a 00 	mov	10(r11),r10	;0x000a(r11)
+    4316:	0a 93       	tst	r10		
+    4318:	02 24       	jz	$+6      	;abs 0x431e
+    431a:	6f 43       	mov.b	#2,	r15	;r3 As==10
+    431c:	1a 3c       	jmp	$+54     	;abs 0x4352
+                      void (*TaskFunc) (uint16_t), uint8_t Prio, uint8_t Flags)
+{
+  uint8_t  rtc = E_SUCCESS;
+  uint16_t sw;
+
+  Phasing *= 4; // correct to get ms approximately
+    431e:	0f 5f       	rla	r15		
+  if (Period == 0) return (E_WRONGPAR);
+  sw = IntDisable (); 
+  Taskp t = &Tasks[Prio]; 
+  if (t->Flags) rtc = E_BUSY; 
+  else {
+    t->NextRelease = 0 + Phasing;
+    4320:	0f 5f       	rla	r15		
+    4322:	8b 4f 00 00 	mov	r15,	0(r11)	;0x0000(r11)
+    t->Period    = Period; 
+    4326:	8b 4e 04 00 	mov	r14,	4(r11)	;0x0004(r11)
+    t->NextPendingDeadline = t->NextRelease + Period;
+    432a:	0f 4e       	mov	r14,	r15	
+    432c:	2f 5b       	add	@r11,	r15	
+    432e:	8b 4f 02 00 	mov	r15,	2(r11)	;0x0002(r11)
+    t->Activated = t->Invoked = 0; 
+    4332:	cb 4a 09 00 	mov.b	r10,	9(r11)	;0x0009(r11)
+    4336:	cb 4a 08 00 	mov.b	r10,	8(r11)	;0x0008(r11)
+    t->Taskf     = TaskFunc; 
+    433a:	8b 4c 0e 00 	mov	r12,	14(r11)	;0x000e(r11)
+    t->ExecutionTime = ExecutionTime;
+    433e:	8b 4d 0c 00 	mov	r13,	12(r11)	;0x000c(r11)
+    t->Flags     = Flags | TRIGGERED;
+    4342:	78 d0 40 00 	bis.b	#64,	r8	;#0x0040
+    4346:	78 f3       	and.b	#-1,	r8	;r3 As==11
+    4348:	8b 48 0a 00 	mov	r8,	10(r11)	;0x000a(r11)
+    t->Remaining = 0;
+    434c:	8b 4a 06 00 	mov	r10,	6(r11)	;0x0006(r11)
+    4350:	4f 4a       	mov.b	r10,	r15	
+  }
+  if (Period < minPeriod) {
+    4352:	1e 92 00 11 	cmp	&0x1100,r14	
+    4356:	04 2c       	jc	$+10     	;abs 0x4360
+      minPeriod = Period;
+    4358:	82 4e 00 11 	mov	r14,	&0x1100	
+      minAt = Prio;
+    435c:	c2 49 14 11 	mov.b	r9,	&0x1114	
+}
+
+void RestoreSW (uint16_t sw)
+{
+    // r2 = sw
+  asm volatile ("mov.w %0, r2\n\t" :: "r"(sw));
+    4360:	02 45       	mov	r5,	r2	
+      minPeriod = Period;
+      minAt = Prio;
+  }
+  RestoreSW (sw);
+  return (rtc);
+}
+    4362:	35 41       	pop	r5		
+    4364:	38 41       	pop	r8		
+    4366:	39 41       	pop	r9		
+    4368:	3a 41       	pop	r10		
+    436a:	3b 41       	pop	r11		
+    436c:	30 41       	ret			
+
+0000436e <UnRegisterTask>:
+
+uint8_t UnRegisterTask (uint8_t t)
+{
+  Tasks[t].Flags = 0;
+    436e:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    4370:	0e 4f       	mov	r15,	r14	
+    4372:	0e 5e       	rla	r14		
+    4374:	0e 5e       	rla	r14		
+    4376:	0e 5e       	rla	r14		
+    4378:	0e 5f       	add	r15,	r14	
+    437a:	0e 5e       	rla	r14		
+    437c:	8e 43 20 11 	mov	#0,	4384(r14);r3 As==00, 0x1120(r14)
+  return (E_SUCCESS);
+}  
+    4380:	4f 43       	clr.b	r15		
+    4382:	30 41       	ret			
+
+00004384 <TimerIntrpt>:
+  Use the Task data structure defined in 'Scheduler.h' to store information which can be used by the scheduler.
+
+*/
+
+interrupt(TIMERA0_VECTOR) TimerIntrpt(void)
+{
+    4384:	0f 12       	push	r15		
+    4386:	0e 12       	push	r14		
+    4388:	0d 12       	push	r13		
+    438a:	0c 12       	push	r12		
+    StartTracking(TT_TIMER_INTERRUPT);
+    438c:	4f 43       	clr.b	r15		
+    438e:	b0 12 96 44 	call	#0x4496	
+    ContextSwitch();
+    4392:	b0 12 64 42 	call	#0x4264	
+
+
+    int i;
+    for (i = 0; i <= NUMTASKS - 1; i++) {
+        Taskp t = &Tasks[i];
+        if (NextInterruptTime == t->NextRelease) {  // the interruption cathes this task's release
+    4396:	1e 42 70 11 	mov	&0x1170,r14	
+    439a:	3f 40 16 11 	mov	#4374,	r15	;#0x1116
+    439e:	2d 4f       	mov	@r15,	r13	
+    43a0:	0e 9d       	cmp	r13,	r14	
+    43a2:	08 20       	jnz	$+18     	;abs 0x43b4
+            t->NextRelease += t->Period;            // to update the next releasing time of it
+    43a4:	9f 5f 04 00 	add	4(r15),	0(r15)	;0x0004(r15), 0x0000(r15)
+    43a8:	00 00 
+            t->Remaining += t->ExecutionTime;       // to calculate the total remaining execution time
+    43aa:	9f 5f 0c 00 	add	12(r15),6(r15)	;0x000c(r15), 0x0006(r15)
+    43ae:	06 00 
+            t->Activated++;                         // to add this task to its queue
+    43b0:	df 53 08 00 	inc.b	8(r15)		;0x0008(r15)
+    43b4:	3f 50 12 00 	add	#18,	r15	;#0x0012
+    /* When should the next timer interrupt occur? Note: we only want interrupts at job releases */
+
+
+
+    int i;
+    for (i = 0; i <= NUMTASKS - 1; i++) {
+    43b8:	3f 90 70 11 	cmp	#4464,	r15	;#0x1170
+    43bc:	f0 23       	jnz	$-30     	;abs 0x439e
+            t->Remaining += t->ExecutionTime;       // to calculate the total remaining execution time
+            t->Activated++;                         // to add this task to its queue
+        }
+    }
+
+    NextInterruptTime = (&Tasks[minAt])->NextRelease; // the next timer interrupt is set to the closest release time
+    43be:	5f 42 14 11 	mov.b	&0x1114,r15	
+    43c2:	0f 5f       	rla	r15		
+    43c4:	0f 5f       	rla	r15		
+    43c6:	0f 5f       	rla	r15		
+    43c8:	0f 5f       	rla	r15		
+    43ca:	5e 42 14 11 	mov.b	&0x1114,r14	
+    43ce:	0e 5e       	rla	r14		
+    43d0:	0f 5e       	add	r14,	r15	
+    43d2:	1f 4f 16 11 	mov	4374(r15),r15	;0x1116(r15)
+    43d6:	82 4f 70 11 	mov	r15,	&0x1170	
+
+  /* ---------------------------------------------------------------- */
+ 
+
+    TACCR0 = NextInterruptTime;
+    43da:	82 4f 72 01 	mov	r15,	&0x0172	
+
+    StopTracking(TT_TIMER_INTERRUPT);
+    43de:	4f 43       	clr.b	r15		
+    43e0:	b0 12 a2 44 	call	#0x44a2	
+    CALL_SCHEDULER;
+    43e4:	3f 40 16 11 	mov	#4374,	r15	;#0x1116
+    43e8:	b0 12 0a 44 	call	#0x440a	
+    StartTracking(TT_TIMER_INTERRUPT);
+    43ec:	4f 43       	clr.b	r15		
+    43ee:	b0 12 96 44 	call	#0x4496	
+
+    ResumeContext();
+    43f2:	b0 12 7c 42 	call	#0x427c	
+    StopTracking(TT_TIMER_INTERRUPT);
+    43f6:	4f 43       	clr.b	r15		
+    43f8:	b0 12 a2 44 	call	#0x44a2	
+
+    PrintResults();
+    43fc:	b0 12 be 44 	call	#0x44be	
+}
+    4400:	3c 41       	pop	r12		
+    4402:	3d 41       	pop	r13		
+    4404:	3e 41       	pop	r14		
+    4406:	3f 41       	pop	r15		
+    4408:	00 13       	reti			
+
+0000440a <Scheduler_P_FP>:
+//  /* ---------------------------------------------------------------- */
+//
+//}
+
+extern minPeriod;
+void Scheduler_P_FP(Task Tasks[]) {
+    440a:	0b 12       	push	r11		
+    440c:	0a 12       	push	r10		
+    440e:	09 12       	push	r9		
+    4410:	0b 4f       	mov	r15,	r11	
+
+    StartTracking(TT_SCHEDULER);
+    4412:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    4414:	b0 12 96 44 	call	#0x4496	
+
+    uint16_t delta = minPeriod / 4;         // spare time for this slot, initialized as the minimum period
+    4418:	1a 42 00 11 	mov	&0x1100,r10	
+    441c:	0a 93       	tst	r10		
+    441e:	02 34       	jge	$+6      	;abs 0x4424
+    4420:	3a 50 03 00 	add	#3,	r10	;#0x0003
+    4424:	0a 11       	rra	r10		
+    4426:	0a 11       	rra	r10		
+    4428:	3b 50 48 00 	add	#72,	r11	;#0x0048
+    442c:	29 42       	mov	#4,	r9	;r2 As==10
+    int i;
+    for (i = NUMTASKS - 1; i >= 0; i--) {  // loop for all the tasks in Tasks[i], ps: Lower indices -> lower priorities
+
+        Taskp t = &Tasks[i];                // to extract task_i
+
+        if (t->Activated != t->Invoked) {   // if there are task_i(s) pending
+    442e:	db 9b 09 00 	cmp.b	9(r11),	8(r11)	;0x0009(r11), 0x0008(r11)
+    4432:	08 00 
+    4434:	21 24       	jz	$+68     	;abs 0x4478
+
+            if (delta >= t->Remaining) {    // if the current spare time is enough
+    4436:	1a 9b 06 00 	cmp	6(r11),	r10	;0x0006(r11)
+    443a:	12 28       	jnc	$+38     	;abs 0x4460
+                StopTracking(TT_SCHEDULER);
+    443c:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    443e:	b0 12 a2 44 	call	#0x44a2	
+                t->Taskf(t->Remaining);     // to execute all the pending task_i(s)
+    4442:	1f 4b 06 00 	mov	6(r11),	r15	;0x0006(r11)
+    4446:	9b 12 0e 00 	call	14(r11)	;0x000e(r11)
+                StartTracking(TT_SCHEDULER);
+    444a:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    444c:	b0 12 96 44 	call	#0x4496	
+                t->Invoked = t->Activated;  // to update "Invoked" to show no more pending 
+    4450:	db 4b 08 00 	mov.b	8(r11),	9(r11)	;0x0008(r11), 0x0009(r11)
+    4454:	09 00 
+                delta -= t->Remaining;      // the spare time is consumed
+    4456:	1a 8b 06 00 	sub	6(r11),	r10	;0x0006(r11)
+                t->Remaining = 0;           // since no more pending, no remaining execution time
+    445a:	8b 43 06 00 	mov	#0,	6(r11)	;r3 As==00, 0x0006(r11)
+    445e:	0c 3c       	jmp	$+26     	;abs 0x4478
+            }
+            else {                          // if the current spare time is insufficient
+                StopTracking(TT_SCHEDULER);
+    4460:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    4462:	b0 12 a2 44 	call	#0x44a2	
+                t->Taskf(delta);            // try its best to execute as much time as possible for task_i(s)
+    4466:	0f 4a       	mov	r10,	r15	
+    4468:	9b 12 0e 00 	call	14(r11)	;0x000e(r11)
+                StartTracking(TT_SCHEDULER);
+    446c:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    446e:	b0 12 96 44 	call	#0x4496	
+                t->Remaining -= delta;      // to update the remaining execution time
+    4472:	8b 8a 06 00 	sub	r10,	6(r11)	;0x0006(r11)
+    4476:	0a 43       	clr	r10		
+    StartTracking(TT_SCHEDULER);
+
+    uint16_t delta = minPeriod / 4;         // spare time for this slot, initialized as the minimum period
+
+    int i;
+    for (i = NUMTASKS - 1; i >= 0; i--) {  // loop for all the tasks in Tasks[i], ps: Lower indices -> lower priorities
+    4478:	39 53       	add	#-1,	r9	;r3 As==11
+    447a:	3b 50 ee ff 	add	#-18,	r11	;#0xffee
+    447e:	39 93       	cmp	#-1,	r9	;r3 As==11
+    4480:	d6 23       	jnz	$-82     	;abs 0x442e
+                delta = 0;                  // no more spare time, no more tasks can be executed in this slot
+            }
+        }
+    }
+
+    StopTracking(TT_SCHEDULER);
+    4482:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    4484:	b0 12 a2 44 	call	#0x44a2	
+    PrintResults();
+    4488:	b0 12 be 44 	call	#0x44be	
+}
+    448c:	39 41       	pop	r9		
+    448e:	3a 41       	pop	r10		
+    4490:	3b 41       	pop	r11		
+    4492:	30 41       	ret			
+
+00004494 <Scheduler_P_EDF>:
+void Scheduler_P_EDF (Task Tasks[])
+{ 
+  /* insert code */
+  /* Use ExecuteTask function to execute a task */
+  /* insert code */
+}
+    4494:	30 41       	ret			
+
+00004496 <StartTracking>:
+static uint16_t Totals[TT_MAX];
+static uint8_t JobsExecuted;
+
+void StartTracking(uint8_t index)
+{
+    StartTimes[index] = TAR;
+    4496:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    4498:	0f 5f       	rla	r15		
+    449a:	9f 42 70 01 	mov	&0x0170,4362(r15);0x110a(r15)
+    449e:	0a 11 
+}
+    44a0:	30 41       	ret			
+
+000044a2 <StopTracking>:
+
+void StopTracking(uint8_t index)
+{
+    Totals[index] += TAR - StartTimes[index];
+    44a2:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    44a4:	0f 5f       	rla	r15		
+    44a6:	1e 42 70 01 	mov	&0x0170,r14	
+    44aa:	1e 5f 0e 11 	add	4366(r15),r14	;0x110e(r15)
+    44ae:	1e 8f 0a 11 	sub	4362(r15),r14	;0x110a(r15)
+    44b2:	8f 4e 0e 11 	mov	r14,	4366(r15);0x110e(r15)
+}
+    44b6:	30 41       	ret			
+
+000044b8 <AddJobExecution>:
+
+void AddJobExecution()
+{
+    JobsExecuted++;
+    44b8:	d2 53 12 11 	inc.b	&0x1112	
+}
+    44bc:	30 41       	ret			
+
+000044be <PrintResults>:
+
+void PrintResults()
+{
+    P1OUT = Totals[TT_TIMER_INTERRUPT] & 0xFF;
+    44be:	3e 40 0e 11 	mov	#4366,	r14	;#0x110e
+    44c2:	2d 4e       	mov	@r14,	r13	
+    44c4:	c2 4d 21 00 	mov.b	r13,	&0x0021	
+    P2OUT = Totals[TT_TIMER_INTERRUPT] >> 8;
+    44c8:	3f 4e       	mov	@r14+,	r15	
+    44ca:	0f 4d       	mov	r13,	r15	
+    44cc:	8f 10       	swpb	r15		
+    44ce:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    44d0:	c2 4f 29 00 	mov.b	r15,	&0x0029	
+
+    P3OUT = Totals[TT_SCHEDULER] & 0xFF;
+    44d4:	2f 4e       	mov	@r14,	r15	
+    44d6:	c2 4f 19 00 	mov.b	r15,	&0x0019	
+    P4OUT = Totals[TT_SCHEDULER] >> 8;
+    44da:	8f 10       	swpb	r15		
+    44dc:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    44de:	c2 4f 1d 00 	mov.b	r15,	&0x001d	
+
+    P6OUT = JobsExecuted;
+    44e2:	d2 42 12 11 	mov.b	&0x1112,&0x0035	
+    44e6:	35 00 
+    44e8:	30 41       	ret			
+
+Disassembly of section .vectors:
+
+0000ffe0 <InterruptVectors>:
+    ffe0:	30 40 30 40 30 40 30 40 30 40 30 40 84 43 30 40     0@0@0@0@0@0@.C0@
+    fff0:	30 40 30 40 30 40 30 40 30 40 30 40 30 40 00 40     0@0@0@0@0@0@0@.@

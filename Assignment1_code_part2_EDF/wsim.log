@@ -1,0 +1,42 @@
+WSim 0.99.405svn, rev 406
+copyright 2005, 2006, 2007, 2008, 2009, 2010
+Citi Lab, INRIA, INSA de Lyon
+mcu   : msp430
+model : msp430f1611
+  xin : 32768
+  xt2 : 0
+
+================
+WSim stats:
+-----------
+  simulation user time          : 0.000 s (396 ns)
+  simulation backtracks         : 0
+
+Machine stats:
+--------------
+  simulated time                : 5000003330 ns (5.000 s)
+  simulation speedup            : 12.63
+  machine exit with signal      : none
+
+MCU:
+----
+  simulated mcu instructions    : 1603402
+  simulated mcu cycles          : 3750534
+  simulated mcu mean freq       : 750106.25 c/s (0.75 MHz)
+  simulation mean freq          : 9470471.49 c/s (9.47 MHz)
+     - does not take into account sleep modes
+  mcu exit at PC                : 0x40d0
+  mcu exit in LPM mode          : Active mode
+  mcu exit with IV              : 0x0000
+
+DEVICES:
+--------
+  - System Platform             :
+  - Led display                 :
+  - Led display                 :
+  - Led display                 :
+  - at45db flash memory         :
+  - cc2420 radio device         :
+  - ptty serial I/O             :
+
+================

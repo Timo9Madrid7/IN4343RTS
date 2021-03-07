@@ -1,0 +1,1006 @@
+
+SchedTest.elf:     file format elf32-msp430
+
+SYMBOL TABLE:
+00004000 l    d  .text	00000000 .text
+00001100 l    d  .bss	00000000 .bss
+0000ffe0 l    d  .vectors	00000000 .vectors
+00000000 l    d  .stab	00000000 .stab
+00000000 l    d  .stabstr	00000000 .stabstr
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_pubnames	00000000 .debug_pubnames
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000130 l       *ABS*	00000000 MPY
+00000132 l       *ABS*	00000000 MPYS
+00000134 l       *ABS*	00000000 MAC
+00000136 l       *ABS*	00000000 MACS
+00000138 l       *ABS*	00000000 OP2
+0000013a l       *ABS*	00000000 RESLO
+0000013c l       *ABS*	00000000 RESHI
+0000013e l       *ABS*	00000000 SUMEXT
+00000020 l       *ABS*	00000000 P1IN
+00000021 l       *ABS*	00000000 P1OUT
+00000022 l       *ABS*	00000000 P1DIR
+00000023 l       *ABS*	00000000 P1IFG
+00000024 l       *ABS*	00000000 P1IES
+00000025 l       *ABS*	00000000 P1IE
+00000026 l       *ABS*	00000000 P1SEL
+00000028 l       *ABS*	00000000 P2IN
+00000029 l       *ABS*	00000000 P2OUT
+0000002a l       *ABS*	00000000 P2DIR
+0000002b l       *ABS*	00000000 P2IFG
+0000002c l       *ABS*	00000000 P2IES
+0000002d l       *ABS*	00000000 P2IE
+0000002e l       *ABS*	00000000 P2SEL
+00000018 l       *ABS*	00000000 P3IN
+00000019 l       *ABS*	00000000 P3OUT
+0000001a l       *ABS*	00000000 P3DIR
+0000001b l       *ABS*	00000000 P3SEL
+0000001c l       *ABS*	00000000 P4IN
+0000001d l       *ABS*	00000000 P4OUT
+0000001e l       *ABS*	00000000 P4DIR
+0000001f l       *ABS*	00000000 P4SEL
+00000030 l       *ABS*	00000000 P5IN
+00000031 l       *ABS*	00000000 P5OUT
+00000032 l       *ABS*	00000000 P5DIR
+00000033 l       *ABS*	00000000 P5SEL
+00000034 l       *ABS*	00000000 P6IN
+00000035 l       *ABS*	00000000 P6OUT
+00000036 l       *ABS*	00000000 P6DIR
+00000037 l       *ABS*	00000000 P6SEL
+00000070 l       *ABS*	00000000 U0CTL
+00000071 l       *ABS*	00000000 U0TCTL
+00000072 l       *ABS*	00000000 U0RCTL
+00000073 l       *ABS*	00000000 U0MCTL
+00000074 l       *ABS*	00000000 U0BR0
+00000075 l       *ABS*	00000000 U0BR1
+00000076 l       *ABS*	00000000 U0RXBUF
+00000077 l       *ABS*	00000000 U0TXBUF
+00000070 l       *ABS*	00000000 UCTL
+00000071 l       *ABS*	00000000 UTCTL
+00000072 l       *ABS*	00000000 URCTL
+00000073 l       *ABS*	00000000 UMCTL
+00000074 l       *ABS*	00000000 UBR0
+00000075 l       *ABS*	00000000 UBR1
+00000076 l       *ABS*	00000000 RXBUF
+00000077 l       *ABS*	00000000 TXBUF
+00000070 l       *ABS*	00000000 UCTL0
+00000071 l       *ABS*	00000000 UTCTL0
+00000072 l       *ABS*	00000000 URCTL0
+00000073 l       *ABS*	00000000 UMCTL0
+00000074 l       *ABS*	00000000 UBR00
+00000075 l       *ABS*	00000000 UBR10
+00000076 l       *ABS*	00000000 RXBUF0
+00000077 l       *ABS*	00000000 TXBUF0
+00000070 l       *ABS*	00000000 UCTL_0
+00000071 l       *ABS*	00000000 UTCTL_0
+00000072 l       *ABS*	00000000 URCTL_0
+00000073 l       *ABS*	00000000 UMCTL_0
+00000074 l       *ABS*	00000000 UBR0_0
+00000075 l       *ABS*	00000000 UBR1_0
+00000076 l       *ABS*	00000000 RXBUF_0
+00000077 l       *ABS*	00000000 TXBUF_0
+00000050 l       *ABS*	00000000 I2CIE
+00000051 l       *ABS*	00000000 I2CIFG
+00000052 l       *ABS*	00000000 I2CNDAT
+00000071 l       *ABS*	00000000 I2CTCTL
+00000072 l       *ABS*	00000000 I2CDCTL
+00000073 l       *ABS*	00000000 I2CPSC
+00000074 l       *ABS*	00000000 I2CSCLH
+00000075 l       *ABS*	00000000 I2CSCLL
+00000076 l       *ABS*	00000000 I2CDRB
+00000076 l       *ABS*	00000000 I2CDRW
+00000118 l       *ABS*	00000000 I2COA
+0000011a l       *ABS*	00000000 I2CSA
+0000011c l       *ABS*	00000000 I2CIV
+00000076 l       *ABS*	00000000 I2CDR
+00000078 l       *ABS*	00000000 U1CTL
+00000079 l       *ABS*	00000000 U1TCTL
+0000007a l       *ABS*	00000000 U1RCTL
+0000007b l       *ABS*	00000000 U1MCTL
+0000007c l       *ABS*	00000000 U1BR0
+0000007d l       *ABS*	00000000 U1BR1
+0000007e l       *ABS*	00000000 U1RXBUF
+0000007f l       *ABS*	00000000 U1TXBUF
+00000078 l       *ABS*	00000000 UCTL1
+00000079 l       *ABS*	00000000 UTCTL1
+0000007a l       *ABS*	00000000 URCTL1
+0000007b l       *ABS*	00000000 UMCTL1
+0000007c l       *ABS*	00000000 UBR01
+0000007d l       *ABS*	00000000 UBR11
+0000007e l       *ABS*	00000000 RXBUF1
+0000007f l       *ABS*	00000000 TXBUF1
+00000078 l       *ABS*	00000000 UCTL_1
+00000079 l       *ABS*	00000000 UTCTL_1
+0000007a l       *ABS*	00000000 URCTL_1
+0000007b l       *ABS*	00000000 UMCTL_1
+0000007c l       *ABS*	00000000 UBR0_1
+0000007d l       *ABS*	00000000 UBR1_1
+0000007e l       *ABS*	00000000 RXBUF_1
+0000007f l       *ABS*	00000000 TXBUF_1
+00000055 l       *ABS*	00000000 SVSCTL
+00000128 l       *ABS*	00000000 FCTL1
+0000012a l       *ABS*	00000000 FCTL2
+0000012c l       *ABS*	00000000 FCTL3
+00000059 l       *ABS*	00000000 CACTL1
+0000005a l       *ABS*	00000000 CACTL2
+0000005b l       *ABS*	00000000 CAPD
+0000012e l       *ABS*	00000000 TA0IV
+00000160 l       *ABS*	00000000 TA0CTL
+00000170 l       *ABS*	00000000 TA0R
+00000162 l       *ABS*	00000000 TA0CCTL0
+00000164 l       *ABS*	00000000 TA0CCTL1
+00000172 l       *ABS*	00000000 TA0CCR0
+00000174 l       *ABS*	00000000 TA0CCR1
+00000166 l       *ABS*	00000000 TA0CCTL2
+00000176 l       *ABS*	00000000 TA0CCR2
+0000011e l       *ABS*	00000000 TBIV
+00000180 l       *ABS*	00000000 TBCTL
+00000190 l       *ABS*	00000000 TBR
+00000182 l       *ABS*	00000000 TBCCTL0
+00000184 l       *ABS*	00000000 TBCCTL1
+00000186 l       *ABS*	00000000 TBCCTL2
+00000192 l       *ABS*	00000000 TBCCR0
+00000194 l       *ABS*	00000000 TBCCR1
+00000196 l       *ABS*	00000000 TBCCR2
+00000188 l       *ABS*	00000000 TBCCTL3
+0000018a l       *ABS*	00000000 TBCCTL4
+0000018c l       *ABS*	00000000 TBCCTL5
+0000018e l       *ABS*	00000000 TBCCTL6
+00000198 l       *ABS*	00000000 TBCCR3
+0000019a l       *ABS*	00000000 TBCCR4
+0000019c l       *ABS*	00000000 TBCCR5
+0000019e l       *ABS*	00000000 TBCCR6
+00000056 l       *ABS*	00000000 DCOCTL
+00000057 l       *ABS*	00000000 BCSCTL1
+00000058 l       *ABS*	00000000 BCSCTL2
+000001a0 l       *ABS*	00000000 ADC12CTL0
+000001a2 l       *ABS*	00000000 ADC12CTL1
+000001a4 l       *ABS*	00000000 ADC12IFG
+000001a6 l       *ABS*	00000000 ADC12IE
+000001a8 l       *ABS*	00000000 ADC12IV
+00000140 l       *ABS*	00000000 ADC12MEM0
+00000142 l       *ABS*	00000000 ADC12MEM1
+00000144 l       *ABS*	00000000 ADC12MEM2
+00000146 l       *ABS*	00000000 ADC12MEM3
+00000148 l       *ABS*	00000000 ADC12MEM4
+0000014a l       *ABS*	00000000 ADC12MEM5
+0000014c l       *ABS*	00000000 ADC12MEM6
+0000014e l       *ABS*	00000000 ADC12MEM7
+00000150 l       *ABS*	00000000 ADC12MEM8
+00000152 l       *ABS*	00000000 ADC12MEM9
+00000154 l       *ABS*	00000000 ADC12MEM10
+00000156 l       *ABS*	00000000 ADC12MEM11
+00000158 l       *ABS*	00000000 ADC12MEM12
+0000015a l       *ABS*	00000000 ADC12MEM13
+0000015c l       *ABS*	00000000 ADC12MEM14
+0000015e l       *ABS*	00000000 ADC12MEM15
+00000080 l       *ABS*	00000000 ADC12MCTL0
+00000081 l       *ABS*	00000000 ADC12MCTL1
+00000082 l       *ABS*	00000000 ADC12MCTL2
+00000083 l       *ABS*	00000000 ADC12MCTL3
+00000084 l       *ABS*	00000000 ADC12MCTL4
+00000085 l       *ABS*	00000000 ADC12MCTL5
+00000086 l       *ABS*	00000000 ADC12MCTL6
+00000087 l       *ABS*	00000000 ADC12MCTL7
+00000088 l       *ABS*	00000000 ADC12MCTL8
+00000089 l       *ABS*	00000000 ADC12MCTL9
+0000008a l       *ABS*	00000000 ADC12MCTL10
+0000008b l       *ABS*	00000000 ADC12MCTL11
+0000008c l       *ABS*	00000000 ADC12MCTL12
+0000008d l       *ABS*	00000000 ADC12MCTL13
+0000008e l       *ABS*	00000000 ADC12MCTL14
+0000008f l       *ABS*	00000000 ADC12MCTL15
+000001c0 l       *ABS*	00000000 DAC12_0CTL
+000001c2 l       *ABS*	00000000 DAC12_1CTL
+000001c8 l       *ABS*	00000000 DAC12_0DAT
+000001ca l       *ABS*	00000000 DAC12_1DAT
+00000122 l       *ABS*	00000000 DMACTL0
+00000124 l       *ABS*	00000000 DMACTL1
+000001e0 l       *ABS*	00000000 DMA0CTL
+000001e2 l       *ABS*	00000000 DMA0SA
+000001e4 l       *ABS*	00000000 DMA0DA
+000001e6 l       *ABS*	00000000 DMA0SZ
+000001e8 l       *ABS*	00000000 DMA1CTL
+000001ea l       *ABS*	00000000 DMA1SA
+000001ec l       *ABS*	00000000 DMA1DA
+000001ee l       *ABS*	00000000 DMA1SZ
+000001f0 l       *ABS*	00000000 DMA2CTL
+000001f2 l       *ABS*	00000000 DMA2SA
+000001f4 l       *ABS*	00000000 DMA2DA
+000001f6 l       *ABS*	00000000 DMA2SZ
+00000120 l       *ABS*	00000000 WDTCTL
+00000000 l       *ABS*	00000000 IE1
+00000002 l       *ABS*	00000000 IFG1
+00000001 l       *ABS*	00000000 IE2
+00000003 l       *ABS*	00000000 IFG2
+00000004 l       *ABS*	00000000 ME1
+00000005 l       *ABS*	00000000 ME2
+00000000 l    df *ABS*	00000000 SchedTest.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Led.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Clock.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 l    df *ABS*	00000000 Context.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00001100 l     O .bss	00000001 CurrentContext
+00001102 l     O .bss	00000003 Contexts
+00000000 l    df *ABS*	00000000 SchedulerPre.c
+00000130 l       *ABS*	00000000 __MPY
+00000132 l       *ABS*	00000000 __MPYS
+00000134 l       *ABS*	00000000 __MAC
+00000136 l       *ABS*	00000000 __MACS
+00000138 l       *ABS*	00000000 __OP2
+0000013a l       *ABS*	00000000 __RESLO
+0000013c l       *ABS*	00000000 __RESHI
+0000013e l       *ABS*	00000000 __SUMEXT
+00000000 g       *ABS*	00000000 __data_size
+00004280 g     F .text	00000072 RegisterTask
+0000415e g     F .text	00000016 ResumeContext
+0000412a g     F .text	0000001a InitClock
+0000410a g     F .text	0000000a InitLeds
+00004036 g     F .text	00000018 CountDelay
+00004376 g       .text	00000000 _etext
+00000038 g       *ABS*	00000000 __bss_size
+00004030 g       .text	00000000 _unexpected_1_
+00004030  w      .text	00000000 vector_ffe0
+00001106 g     O .bss	00000001 BusyPrio
+000042f2 g       .text	00000000 vector_ffec
+00004030  w      .text	00000000 vector_fff0
+00004376 g       *ABS*	00000000 __data_load_start
+00004030 g       .text	00000000 __dtors_end
+00004030  w      .text	00000000 vector_fffc
+000040ea g     F .text	00000020 BlinkYellow
+00004030  w      .text	00000000 vector_ffe4
+00004124 g     F .text	00000006 ToggleLeds
+00004114 g     F .text	00000010 SetLeds
+0000ffe0 g     O .vectors	00000020 InterruptVectors
+000041da g     F .text	0000001e UnRegisterTask
+00001107 g     O .bss	00000001 Pending
+00004144 g     F .text	0000001a ContextSwitch
+000040ca g     F .text	00000020 BlinkGreen
+000041f8 g     F .text	00000070 Scheduler
+0000401c  w      .text	00000000 __do_clear_bss
+000042f2 g     F .text	00000084 TimerIntrpt
+00004030  w      .text	00000000 vector_ffe2
+00004030  w      .text	00000000 vector_ffe8
+00004034  w      .text	00000000 _unexpected_
+00004030  w      .text	00000000 vector_fffa
+00001108 g     O .bss	00000030 Tasks
+00004000  w      .text	00000000 _reset_vector__
+00004030 g       .text	00000000 __ctors_start
+0000400a  w      .text	00000000 __do_copy_data
+00001100 g       .bss	00000000 __bss_start
+00004030  w      .text	00000000 vector_ffee
+00004030  w      .text	00000000 vector_fff4
+0000404e g     F .text	0000005c main
+00004030  w      .text	00000000 vector_fff8
+00004030  w      .text	00000000 vector_fff2
+000040aa g     F .text	00000020 BlinkRed
+00010000 g       .vectors	00000000 _vectors_end
+00004030  w      .text	00000000 vector_ffe6
+00004174 g     F .text	00000006 IntDisable
+00004000  w      .text	00000000 __init_stack
+00004030 g       .text	00000000 __dtors_start
+00004030 g       .text	00000000 __ctors_end
+00003900 g       *ABS*	00000000 __stack
+00001100 g       .bss	00000000 _edata
+00001138 g       .bss	00000000 _end
+00004030  w      .text	00000000 vector_fff6
+00004004  w      .text	00000000 __low_level_init
+0000402c  w      .text	00000000 __jump_to_main
+0000417a g     F .text	00000010 Prio2Taskp
+0000418a g     F .text	00000050 InitTasks
+00001100 g       .bss	00000000 __data_start
+00004030  w      .text	00000000 vector_ffea
+00004268 g     F .text	00000018 RestoreSW
+
+
+
+Disassembly of section .text:
+
+00004000 <__init_stack>:
+    4000:	31 40 00 39 	mov	#14592,	r1	;#0x3900
+
+00004004 <__low_level_init>:
+    4004:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    4008:	20 01 
+
+0000400a <__do_copy_data>:
+    400a:	3f 40 00 00 	mov	#0,	r15	;#0x0000
+    400e:	0f 93       	tst	r15		
+    4010:	05 24       	jz	$+12     	;abs 0x401c
+    4012:	2f 83       	decd	r15		
+    4014:	9f 4f 76 43 	mov	17270(r15),4352(r15);0x4376(r15), 0x1100(r15)
+    4018:	00 11 
+    401a:	fb 23       	jnz	$-8      	;abs 0x4012
+
+0000401c <__do_clear_bss>:
+    401c:	3f 40 38 00 	mov	#56,	r15	;#0x0038
+    4020:	0f 93       	tst	r15		
+    4022:	04 24       	jz	$+10     	;abs 0x402c
+    4024:	1f 83       	dec	r15		
+    4026:	cf 43 00 11 	mov.b	#0,	4352(r15);r3 As==00, 0x1100(r15)
+    402a:	fc 23       	jnz	$-6      	;abs 0x4024
+
+0000402c <__jump_to_main>:
+    402c:	30 40 4e 40 	br	#0x404e	
+
+00004030 <__ctors_end>:
+    4030:	30 40 34 40 	br	#0x4034	
+
+00004034 <_unexpected_>:
+    4034:	00 13       	reti			
+
+00004036 <CountDelay>:
+#define REDBLINKPRIO    2
+
+
+
+void CountDelay (volatile uint16_t cnt)
+{
+    4036:	21 83       	decd	r1		
+    4038:	81 4f 00 00 	mov	r15,	0(r1)	;0x0000(r1)
+  while (cnt--);
+    403c:	2f 41       	mov	@r1,	r15	
+    403e:	0e 4f       	mov	r15,	r14	
+    4040:	3e 53       	add	#-1,	r14	;r3 As==11
+    4042:	81 4e 00 00 	mov	r14,	0(r1)	;0x0000(r1)
+    4046:	0f 93       	tst	r15		
+    4048:	f9 23       	jnz	$-12     	;abs 0x403c
+}
+    404a:	21 53       	incd	r1		
+    404c:	30 41       	ret			
+
+0000404e <main>:
+  CountDelay(20000);
+  SetLeds (RED, 0);
+}
+
+int main(void) 
+{ 
+    404e:	31 40 00 39 	mov	#14592,	r1	;#0x3900
+  WDTCTL = WDTPW + WDTHOLD;       // Stop watchdog timer 
+    4052:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    4056:	20 01 
+  
+  InitTasks (); 
+    4058:	b0 12 8a 41 	call	#0x418a	
+  InitClock ();
+    405c:	b0 12 2a 41 	call	#0x412a	
+  InitLeds (RED | GREEN | YELLOW);
+    4060:	7f 40 70 00 	mov.b	#112,	r15	;#0x0070
+    4064:	b0 12 0a 41 	call	#0x410a	
+
+  RegisterTask (0, 512, BlinkYellow, YELLOWBLINKPRIO, 0);
+    4068:	43 12       	push.b	#0		;r3 As==00
+    406a:	4c 43       	clr.b	r12		
+    406c:	3d 40 ea 40 	mov	#16618,	r13	;#0x40ea
+    4070:	3e 40 00 02 	mov	#512,	r14	;#0x0200
+    4074:	0f 43       	clr	r15		
+    4076:	b0 12 80 42 	call	#0x4280	
+  RegisterTask (0, 1024, BlinkGreen, GREENBLINKPRIO, 0);
+    407a:	43 12       	push.b	#0		;r3 As==00
+    407c:	5c 43       	mov.b	#1,	r12	;r3 As==01
+    407e:	3d 40 ca 40 	mov	#16586,	r13	;#0x40ca
+    4082:	3e 40 00 04 	mov	#1024,	r14	;#0x0400
+    4086:	0f 43       	clr	r15		
+    4088:	b0 12 80 42 	call	#0x4280	
+  RegisterTask (0, 1536, BlinkRed, REDBLINKPRIO, 0);
+    408c:	43 12       	push.b	#0		;r3 As==00
+    408e:	6c 43       	mov.b	#2,	r12	;r3 As==10
+    4090:	3d 40 aa 40 	mov	#16554,	r13	;#0x40aa
+    4094:	3e 40 00 06 	mov	#1536,	r14	;#0x0600
+    4098:	0f 43       	clr	r15		
+    409a:	b0 12 80 42 	call	#0x4280	
+
+  _EINT();                // Enable interrupts
+    409e:	32 d2       	eint			
+    40a0:	31 50 06 00 	add	#6,	r1	;#0x0006
+
+  while (1)
+  {
+    EnterLowPowerMode3(); // idle task, set to low power mode 3
+    40a4:	32 c0 d0 00 	bic	#208,	r2	;#0x00d0
+    40a8:	fd 3f       	jmp	$-4      	;abs 0x40a4
+
+000040aa <BlinkRed>:
+  SetLeds (GREEN, 0);
+}
+
+void BlinkRed (void)
+{
+  SetLeds (RED, 1);
+    40aa:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    40ac:	7f 40 10 00 	mov.b	#16,	r15	;#0x0010
+    40b0:	b0 12 14 41 	call	#0x4114	
+    40b4:	3f 40 20 4e 	mov	#20000,	r15	;#0x4e20
+
+
+
+void CountDelay (volatile uint16_t cnt)
+{
+  while (cnt--);
+    40b8:	0e 4f       	mov	r15,	r14	
+    40ba:	3f 53       	add	#-1,	r15	;r3 As==11
+    40bc:	0e 93       	tst	r14		
+    40be:	fc 23       	jnz	$-6      	;abs 0x40b8
+
+void BlinkRed (void)
+{
+  SetLeds (RED, 1);
+  CountDelay(20000);
+  SetLeds (RED, 0);
+    40c0:	7f 40 10 00 	mov.b	#16,	r15	;#0x0010
+    40c4:	b0 12 14 41 	call	#0x4114	
+}
+    40c8:	30 41       	ret			
+
+000040ca <BlinkGreen>:
+  SetLeds (YELLOW, 0);
+}
+
+void BlinkGreen (void)
+{
+  SetLeds (GREEN, 1);
+    40ca:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    40cc:	7f 40 20 00 	mov.b	#32,	r15	;#0x0020
+    40d0:	b0 12 14 41 	call	#0x4114	
+    40d4:	3f 40 10 27 	mov	#10000,	r15	;#0x2710
+
+
+
+void CountDelay (volatile uint16_t cnt)
+{
+  while (cnt--);
+    40d8:	0e 4f       	mov	r15,	r14	
+    40da:	3f 53       	add	#-1,	r15	;r3 As==11
+    40dc:	0e 93       	tst	r14		
+    40de:	fc 23       	jnz	$-6      	;abs 0x40d8
+
+void BlinkGreen (void)
+{
+  SetLeds (GREEN, 1);
+  CountDelay(10000);
+  SetLeds (GREEN, 0);
+    40e0:	7f 40 20 00 	mov.b	#32,	r15	;#0x0020
+    40e4:	b0 12 14 41 	call	#0x4114	
+}
+    40e8:	30 41       	ret			
+
+000040ea <BlinkYellow>:
+  while (cnt--);
+}
+
+void BlinkYellow (void)
+{
+  SetLeds (YELLOW, 1);
+    40ea:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    40ec:	7f 40 40 00 	mov.b	#64,	r15	;#0x0040
+    40f0:	b0 12 14 41 	call	#0x4114	
+    40f4:	3f 40 10 27 	mov	#10000,	r15	;#0x2710
+
+
+
+void CountDelay (volatile uint16_t cnt)
+{
+  while (cnt--);
+    40f8:	0e 4f       	mov	r15,	r14	
+    40fa:	3f 53       	add	#-1,	r15	;r3 As==11
+    40fc:	0e 93       	tst	r14		
+    40fe:	fc 23       	jnz	$-6      	;abs 0x40f8
+
+void BlinkYellow (void)
+{
+  SetLeds (YELLOW, 1);
+  CountDelay(10000);
+  SetLeds (YELLOW, 0);
+    4100:	7f 40 40 00 	mov.b	#64,	r15	;#0x0040
+    4104:	b0 12 14 41 	call	#0x4114	
+}
+    4108:	30 41       	ret			
+
+0000410a <InitLeds>:
+#include <iomacros.h>
+#include "Led.h"
+
+void InitLeds (uint8_t Colors)
+{
+  LEDDIR |= Colors;
+    410a:	c2 df 32 00 	bis.b	r15,	&0x0032	
+  LEDPIN |= Colors;
+    410e:	c2 df 31 00 	bis.b	r15,	&0x0031	
+
+}
+    4112:	30 41       	ret			
+
+00004114 <SetLeds>:
+
+void SetLeds (uint8_t Colors, uint8_t On)
+{
+  if (On) LEDPIN &= ~Colors;
+    4114:	4e 93       	tst.b	r14		
+    4116:	03 24       	jz	$+8      	;abs 0x411e
+    4118:	c2 cf 31 00 	bic.b	r15,	&0x0031	
+    411c:	30 41       	ret			
+  else    LEDPIN |= Colors;
+    411e:	c2 df 31 00 	bis.b	r15,	&0x0031	
+    4122:	30 41       	ret			
+
+00004124 <ToggleLeds>:
+}
+
+void ToggleLeds (uint8_t Colors)
+{
+  LEDPIN ^= Colors;
+    4124:	c2 ef 31 00 	xor.b	r15,	&0x0031	
+}
+    4128:	30 41       	ret			
+
+0000412a <InitClock>:
+
+#define ACLOCK    32768  /* rate of the Aclock                               */
+
+void InitClock (void)
+{
+	TACTL  = TASSEL0 + TACLR; /* ACLK, clear TAR                               */
+    412a:	b2 40 04 01 	mov	#260,	&0x0160	;#0x0104
+    412e:	60 01 
+	CCR0   = ACLOCK/TicksPS;  /* #ticks per interrupt:1024 Hz in this case     */
+    4130:	b2 40 20 00 	mov	#32,	&0x0172	;#0x0020
+    4134:	72 01 
+	CCTL0  = CCIE;            /* CCR0 interrupt enabled                        */
+    4136:	b2 40 10 00 	mov	#16,	&0x0162	;#0x0010
+    413a:	62 01 
+	TACTL |= MC0;		    /* Start Timer_a in upmode                       */
+    413c:	b2 d0 10 00 	bis	#16,	&0x0160	;#0x0010
+    4140:	60 01 
+}
+    4142:	30 41       	ret			
+
+00004144 <ContextSwitch>:
+static uint8_t Contexts[NUMTASKS];
+static uint8_t CurrentContext = 0;
+
+void ContextSwitch()
+{
+	Contexts[CurrentContext] = LEDPIN; // store current context
+    4144:	5f 42 00 11 	mov.b	&0x1100,r15	
+    4148:	4e 4f       	mov.b	r15,	r14	
+    414a:	de 42 31 00 	mov.b	&0x0031,4354(r14);0x1102(r14)
+    414e:	02 11 
+	CurrentContext++;
+    4150:	5f 53       	inc.b	r15		
+    4152:	c2 4f 00 11 	mov.b	r15,	&0x1100	
+	//LEDPIN = 0xFF;
+    LEDPIN |= (RED | GREEN | YELLOW); // disable all leds
+    4156:	f2 d0 70 00 	bis.b	#112,	&0x0031	;#0x0070
+    415a:	31 00 
+}
+    415c:	30 41       	ret			
+
+0000415e <ResumeContext>:
+
+void ResumeContext()
+{
+	CurrentContext--;
+    415e:	5f 42 00 11 	mov.b	&0x1100,r15	
+    4162:	7f 53       	add.b	#-1,	r15	;r3 As==11
+    4164:	c2 4f 00 11 	mov.b	r15,	&0x1100	
+	LEDPIN = Contexts[CurrentContext]; // resume context
+    4168:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    416a:	3f 50 02 11 	add	#4354,	r15	;#0x1102
+    416e:	e2 4f 31 00 	mov.b	@r15,	&0x0031	
+	
+}
+    4172:	30 41       	ret			
+
+00004174 <IntDisable>:
+
+uint16_t IntDisable (void)
+{
+  uint16_t sw;
+    // sw = r2
+  asm volatile ("mov.w r2, %0\n\t" : "=r"(sw));
+    4174:	0f 42       	mov	r2,	r15	
+  _DINT();
+    4176:	32 c2       	dint			
+  return (sw);
+}
+    4178:	30 41       	ret			
+
+0000417a <Prio2Taskp>:
+  asm volatile ("mov.w %0, r2\n\t" :: "r"(sw));
+}  
+
+Taskp Prio2Taskp (uint8_t Prio) __attribute__  ( (noinline) ); 
+Taskp Prio2Taskp (uint8_t Prio)
+{
+    417a:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    417c:	0f 5f       	rla	r15		
+    417e:	0f 5f       	rla	r15		
+    4180:	0f 5f       	rla	r15		
+    4182:	0f 5f       	rla	r15		
+  return (&Tasks[Prio]);
+}
+    4184:	3f 50 08 11 	add	#4360,	r15	;#0x1108
+    4188:	30 41       	ret			
+
+0000418a <InitTasks>:
+void InitTasks (void)
+{     
+  uint8_t i=NUMTASKS-1; 
+  do { 
+    Taskp t = &Tasks[i];
+    t->Flags = t->Activated = t->Invoked = 0;
+    418a:	3f 40 2f 11 	mov	#4399,	r15	;#0x112f
+    418e:	cf 43 00 00 	mov.b	#0,	0(r15)	;r3 As==00, 0x0000(r15)
+    4192:	0e 4f       	mov	r15,	r14	
+    4194:	3e 53       	add	#-1,	r14	;r3 As==11
+    4196:	ce 43 00 00 	mov.b	#0,	0(r14)	;r3 As==00, 0x0000(r14)
+    419a:	6e 4e       	mov.b	@r14,	r14	
+    419c:	7e f3       	and.b	#-1,	r14	;r3 As==11
+    419e:	8f 4e 01 00 	mov	r14,	1(r15)	;0x0001(r15)
+    41a2:	cf 43 f0 ff 	mov.b	#0,	-16(r15);r3 As==00, 0xfff0(r15)
+    41a6:	0e 4f       	mov	r15,	r14	
+    41a8:	3e 50 ef ff 	add	#-17,	r14	;#0xffef
+    41ac:	ee 4f 00 00 	mov.b	@r15,	0(r14)	;0x0000(r14)
+    41b0:	6e 4e       	mov.b	@r14,	r14	
+    41b2:	7e f3       	and.b	#-1,	r14	;r3 As==11
+    41b4:	8f 4e f1 ff 	mov	r14,	-15(r15);0xfff1(r15)
+    41b8:	cf 43 e0 ff 	mov.b	#0,	-32(r15);r3 As==00, 0xffe0(r15)
+    41bc:	0e 4f       	mov	r15,	r14	
+    41be:	3e 50 df ff 	add	#-33,	r14	;#0xffdf
+    41c2:	ee 4f 00 00 	mov.b	@r15,	0(r14)	;0x0000(r14)
+    41c6:	6e 4e       	mov.b	@r14,	r14	
+    41c8:	7e f3       	and.b	#-1,	r14	;r3 As==11
+    41ca:	8f 4e e1 ff 	mov	r14,	-31(r15);0xffe1(r15)
+  } while (i--);
+  BusyPrio = NUMTASKS;
+    41ce:	f2 40 03 00 	mov.b	#3,	&0x1106	;#0x0003
+    41d2:	06 11 
+  Pending = 0; 
+    41d4:	c2 43 07 11 	mov.b	#0,	&0x1107	;r3 As==00
+}
+    41d8:	30 41       	ret			
+
+000041da <UnRegisterTask>:
+ *       task is active or not.
+ */
+
+uint8_t UnRegisterTask (uint8_t t)
+{
+  if (t>=NUMTASKS) return (E_BOUNDS); // out of bounds
+    41da:	7f 90 03 00 	cmp.b	#3,	r15	;#0x0003
+    41de:	02 28       	jnc	$+6      	;abs 0x41e4
+    41e0:	5f 43       	mov.b	#1,	r15	;r3 As==01
+    41e2:	30 41       	ret			
+  Tasks[t].Flags = 0;
+    41e4:	7f f3       	and.b	#-1,	r15	;r3 As==11
+    41e6:	0f 5f       	rla	r15		
+    41e8:	1f 53       	inc	r15		
+    41ea:	0f 5f       	rla	r15		
+    41ec:	0f 5f       	rla	r15		
+    41ee:	0f 5f       	rla	r15		
+    41f0:	8f 43 08 11 	mov	#0,	4360(r15);r3 As==00, 0x1108(r15)
+    41f4:	4f 43       	clr.b	r15		
+  return (E_SUCCESS);
+}  
+    41f6:	30 41       	ret			
+
+000041f8 <Scheduler>:
+
+void Scheduler (void)
+{ 
+    41f8:	0b 12       	push	r11		
+    41fa:	0a 12       	push	r10		
+  SetLeds (BROWN, 0);
+    41fc:	4e 43       	clr.b	r14		
+    41fe:	6f 43       	mov.b	#2,	r15	;r3 As==10
+    4200:	b0 12 14 41 	call	#0x4114	
+
+  uint8_t oldBP = BusyPrio; // Set BusyPrio as the priority of the currently running task (the one that was executing just before the scheduler is called)
+    4204:	5a 42 06 11 	mov.b	&0x1106,r10	
+
+  for(BusyPrio = 0; BusyPrio < oldBP; BusyPrio++)
+    4208:	c2 43 06 11 	mov.b	#0,	&0x1106	;r3 As==00
+    420c:	23 3c       	jmp	$+72     	;abs 0x4254
+  {
+    Taskp CurTask = CurrentTask ();
+    420e:	5f 42 06 11 	mov.b	&0x1106,r15	
+    4212:	b0 12 7a 41 	call	#0x417a	
+    4216:	0b 4f       	mov	r15,	r11	
+    while (CurTask->Activated != CurTask->Invoked) {
+    4218:	16 3c       	jmp	$+46     	;abs 0x4246
+      CurTask->Invoked++; 
+    421a:	5f 53       	inc.b	r15		
+    421c:	cb 4f 07 00 	mov.b	r15,	7(r11)	;0x0007(r11)
+      if (CurTask->Flags & TRIGGERED) {
+    4220:	bb b0 40 00 	bit	#64,	8(r11)	;#0x0040, 0x0008(r11)
+    4224:	08 00 
+    4226:	0d 24       	jz	$+28     	;abs 0x4242
+        SetLeds (BROWN, 1);
+    4228:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    422a:	6f 43       	mov.b	#2,	r15	;r3 As==10
+    422c:	b0 12 14 41 	call	#0x4114	
+        _EINT(); 
+    4230:	32 d2       	eint			
+        CurTask->Taskf(); 
+    4232:	9b 12 0a 00 	call	10(r11)	;0x000a(r11)
+        _DINT();
+    4236:	32 c2       	dint			
+        SetLeds (BROWN, 0);
+    4238:	4e 43       	clr.b	r14		
+    423a:	6f 43       	mov.b	#2,	r15	;r3 As==10
+    423c:	b0 12 14 41 	call	#0x4114	
+    4240:	02 3c       	jmp	$+6      	;abs 0x4246
+      } else {
+        CurTask->Activated = CurTask->Invoked;
+    4242:	cb 4f 06 00 	mov.b	r15,	6(r11)	;0x0006(r11)
+  uint8_t oldBP = BusyPrio; // Set BusyPrio as the priority of the currently running task (the one that was executing just before the scheduler is called)
+
+  for(BusyPrio = 0; BusyPrio < oldBP; BusyPrio++)
+  {
+    Taskp CurTask = CurrentTask ();
+    while (CurTask->Activated != CurTask->Invoked) {
+    4246:	5f 4b 07 00 	mov.b	7(r11),	r15	;0x0007(r11)
+    424a:	cb 9f 06 00 	cmp.b	r15,	6(r11)	;0x0006(r11)
+    424e:	e5 23       	jnz	$-52     	;abs 0x421a
+{ 
+  SetLeds (BROWN, 0);
+
+  uint8_t oldBP = BusyPrio; // Set BusyPrio as the priority of the currently running task (the one that was executing just before the scheduler is called)
+
+  for(BusyPrio = 0; BusyPrio < oldBP; BusyPrio++)
+    4250:	d2 53 06 11 	inc.b	&0x1106	
+    4254:	c2 9a 06 11 	cmp.b	r10,	&0x1106	
+    4258:	da 2b       	jnc	$-74     	;abs 0x420e
+        CurTask->Activated = CurTask->Invoked;
+      }
+    }
+  }
+
+  SetLeds (BROWN, 1);
+    425a:	5e 43       	mov.b	#1,	r14	;r3 As==01
+    425c:	6f 43       	mov.b	#2,	r15	;r3 As==10
+    425e:	b0 12 14 41 	call	#0x4114	
+} 
+    4262:	3a 41       	pop	r10		
+    4264:	3b 41       	pop	r11		
+    4266:	30 41       	ret			
+
+00004268 <RestoreSW>:
+  _DINT();
+  return (sw);
+}
+
+void RestoreSW (uint16_t sw)
+{
+    4268:	0b 12       	push	r11		
+    426a:	0b 4f       	mov	r15,	r11	
+  if (Pending && (sw & INTRPT_BIT)) Scheduler ();
+    426c:	c2 93 07 11 	tst.b	&0x1107	
+    4270:	04 24       	jz	$+10     	;abs 0x427a
+    4272:	3f b2       	bit	#8,	r15	;r2 As==11
+    4274:	02 24       	jz	$+6      	;abs 0x427a
+    4276:	b0 12 f8 41 	call	#0x41f8	
+    // r2 = sw
+  asm volatile ("mov.w %0, r2\n\t" :: "r"(sw));
+    427a:	02 4b       	mov	r11,	r2	
+}  
+    427c:	3b 41       	pop	r11		
+    427e:	30 41       	ret			
+
+00004280 <RegisterTask>:
+ * Each priority level has at most one task.
+ */
+
+uint8_t RegisterTask (uint16_t Phasing, uint16_t Period, 
+                      void (*TaskFunc) (void), uint8_t Prio, uint8_t Flags)
+{
+    4280:	0b 12       	push	r11		
+    4282:	0a 12       	push	r10		
+    4284:	09 12       	push	r9		
+    4286:	5b 41 08 00 	mov.b	8(r1),	r11	;0x0008(r1)
+  uint8_t  rtc = E_SUCCESS;
+  uint16_t sw;
+
+  if (Prio>=NUMTASKS) return (E_BOUNDS); // out of bounds
+    428a:	7c 90 03 00 	cmp.b	#3,	r12	;#0x0003
+    428e:	02 28       	jnc	$+6      	;abs 0x4294
+    4290:	5b 43       	mov.b	#1,	r11	;r3 As==01
+    4292:	2a 3c       	jmp	$+86     	;abs 0x42e8
+
+uint16_t IntDisable (void)
+{
+  uint16_t sw;
+    // sw = r2
+  asm volatile ("mov.w r2, %0\n\t" : "=r"(sw));
+    4294:	09 42       	mov	r2,	r9	
+  _DINT();
+    4296:	32 c2       	dint			
+  uint8_t  rtc = E_SUCCESS;
+  uint16_t sw;
+
+  if (Prio>=NUMTASKS) return (E_BOUNDS); // out of bounds
+  sw = IntDisable (); 
+  Taskp t = &Tasks[Prio]; 
+    4298:	7c f3       	and.b	#-1,	r12	;r3 As==11
+    429a:	0c 5c       	rla	r12		
+    429c:	0c 5c       	rla	r12		
+    429e:	0c 5c       	rla	r12		
+    42a0:	0c 5c       	rla	r12		
+    42a2:	3c 50 08 11 	add	#4360,	r12	;#0x1108
+  if (t->Flags) rtc = E_BUSY; 
+    42a6:	1a 4c 08 00 	mov	8(r12),	r10	;0x0008(r12)
+    42aa:	0a 93       	tst	r10		
+    42ac:	02 24       	jz	$+6      	;abs 0x42b2
+    42ae:	6b 43       	mov.b	#2,	r11	;r3 As==10
+    42b0:	18 3c       	jmp	$+50     	;abs 0x42e2
+  else {
+    t->Remaining = Phasing;
+    42b2:	8c 4f 00 00 	mov	r15,	0(r12)	;0x0000(r12)
+    t->Period    = Period; 
+    42b6:	8c 4e 02 00 	mov	r14,	2(r12)	;0x0002(r12)
+    t->Activated = t->Invoked = 0; 
+    42ba:	cc 4a 07 00 	mov.b	r10,	7(r12)	;0x0007(r12)
+    42be:	cc 4a 06 00 	mov.b	r10,	6(r12)	;0x0006(r12)
+    t->Taskf     = TaskFunc; 
+    42c2:	8c 4d 0a 00 	mov	r13,	10(r12)	;0x000a(r12)
+    if (Period>0) Flags |= PERIODIC;
+    42c6:	0e 9a       	cmp	r10,	r14	
+    42c8:	01 24       	jz	$+4      	;abs 0x42cc
+    42ca:	6b d3       	bis.b	#2,	r11	;r3 As==10
+    if (Phasing>0 || Period>0) Flags |= TT;
+    42cc:	0f 93       	tst	r15		
+    42ce:	02 20       	jnz	$+6      	;abs 0x42d4
+    42d0:	0e 9f       	cmp	r15,	r14	
+    42d2:	01 24       	jz	$+4      	;abs 0x42d6
+    42d4:	6b d2       	bis.b	#4,	r11	;r2 As==10
+    t->Flags = Flags | TRIGGERED;
+    42d6:	7b d0 40 00 	bis.b	#64,	r11	;#0x0040
+    42da:	7b f3       	and.b	#-1,	r11	;r3 As==11
+    42dc:	8c 4b 08 00 	mov	r11,	8(r12)	;0x0008(r12)
+    42e0:	4b 43       	clr.b	r11		
+  }
+  RestoreSW (sw);
+    42e2:	0f 49       	mov	r9,	r15	
+    42e4:	b0 12 68 42 	call	#0x4268	
+  return (rtc);
+}
+    42e8:	4f 4b       	mov.b	r11,	r15	
+    42ea:	39 41       	pop	r9		
+    42ec:	3a 41       	pop	r10		
+    42ee:	3b 41       	pop	r11		
+    42f0:	30 41       	ret			
+
+000042f2 <TimerIntrpt>:
+
+  SetLeds (BROWN, 1);
+} 
+
+interrupt (TIMERA0_VECTOR) TimerIntrpt (void)
+{
+    42f2:	0f 12       	push	r15		
+    42f4:	0e 12       	push	r14		
+    42f6:	0d 12       	push	r13		
+    42f8:	0c 12       	push	r12		
+    42fa:	0b 12       	push	r11		
+  ContextSwitch();
+    42fc:	b0 12 44 41 	call	#0x4144	
+  
+  SetLeds (WHITE, 0);
+    4300:	4e 43       	clr.b	r14		
+    4302:	6f 42       	mov.b	#4,	r15	;r2 As==10
+    4304:	b0 12 14 41 	call	#0x4114	
+    4308:	3f 40 08 11 	mov	#4360,	r15	;#0x1108
+    430c:	4e 43       	clr.b	r14		
+
+  uint8_t i; 
+  for(i = 0; i < NUMTASKS; i++)
+  {
+    Taskp t = &Tasks[i];
+    if (t->Flags & TT) { // countdown
+    430e:	af b2 08 00 	bit	#4,	8(r15)	;r2 As==10, 0x0008(r15)
+    4312:	18 24       	jz	$+50     	;abs 0x4344
+      if (t->Remaining-- == 0) {
+    4314:	2d 4f       	mov	@r15,	r13	
+    4316:	0c 4d       	mov	r13,	r12	
+    4318:	3c 53       	add	#-1,	r12	;r3 As==11
+    431a:	8f 4c 00 00 	mov	r12,	0(r15)	;0x0000(r15)
+    431e:	0d 93       	tst	r13		
+    4320:	11 20       	jnz	$+36     	;abs 0x4344
+        t->Activated++;
+    4322:	df 53 06 00 	inc.b	6(r15)		;0x0006(r15)
+        t->Remaining = t->Period-1; 
+    4326:	1c 4f 02 00 	mov	2(r15),	r12	;0x0002(r15)
+    432a:	3c 53       	add	#-1,	r12	;r3 As==11
+    432c:	8f 4c 00 00 	mov	r12,	0(r15)	;0x0000(r15)
+        Pending |= i<BusyPrio;
+    4330:	5c 42 07 11 	mov.b	&0x1107,r12	
+    4334:	5b 42 06 11 	mov.b	&0x1106,r11	
+    4338:	4e 9b       	cmp.b	r11,	r14	
+    433a:	01 2c       	jc	$+4      	;abs 0x433e
+    433c:	5d 53       	inc.b	r13		
+    433e:	4d dc       	bis.b	r12,	r13	
+    4340:	c2 4d 07 11 	mov.b	r13,	&0x1107	
+  ContextSwitch();
+  
+  SetLeds (WHITE, 0);
+
+  uint8_t i; 
+  for(i = 0; i < NUMTASKS; i++)
+    4344:	5e 53       	inc.b	r14		
+    4346:	3f 50 10 00 	add	#16,	r15	;#0x0010
+    434a:	7e 90 03 00 	cmp.b	#3,	r14	;#0x0003
+    434e:	df 23       	jnz	$-64     	;abs 0x430e
+        Pending |= i<BusyPrio;
+      }
+    }
+  }
+
+  SetLeds (WHITE, 1);
+    4350:	6e 83       	decd.b	r14		
+    4352:	6f 42       	mov.b	#4,	r15	;r2 As==10
+    4354:	b0 12 14 41 	call	#0x4114	
+
+  if (Pending) 
+    4358:	c2 93 07 11 	tst.b	&0x1107	
+    435c:	04 24       	jz	$+10     	;abs 0x4366
+  {
+    Scheduler (); /* stay in interrupt context *
+    435e:	b0 12 f8 41 	call	#0x41f8	
+                   * interrupts disabled       */
+    Pending = 0;
+    4362:	c2 43 07 11 	mov.b	#0,	&0x1107	;r3 As==00
+  }
+
+  ResumeContext();
+    4366:	b0 12 5e 41 	call	#0x415e	
+}
+    436a:	3b 41       	pop	r11		
+    436c:	3c 41       	pop	r12		
+    436e:	3d 41       	pop	r13		
+    4370:	3e 41       	pop	r14		
+    4372:	3f 41       	pop	r15		
+    4374:	00 13       	reti			
+
+Disassembly of section .vectors:
+
+0000ffe0 <InterruptVectors>:
+    ffe0:	30 40 30 40 30 40 30 40 30 40 30 40 f2 42 30 40     0@0@0@0@0@0@.B0@
+    fff0:	30 40 30 40 30 40 30 40 30 40 30 40 30 40 00 40     0@0@0@0@0@0@0@.@
