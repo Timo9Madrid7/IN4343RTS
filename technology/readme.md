@@ -1,4 +1,4 @@
-Ming adds BCRT.ipynb to calculate BCRT
+Ming deletes BCRT and add WCRT (之前理解有误)
 
 Jitter.ipynb is useful 
 
