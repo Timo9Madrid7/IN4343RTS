@@ -6,4 +6,4 @@
 
 20160407Q5 Bi没有有-1, 书上和PPT都使用了-1 (p.262-Eq.8.10) 
 
-Practice for Non Preemptive Scheduling 8.2 题目答案有误, 用代码算
+课本练习8.2：Practice for Non Preemptive Scheduling 8.2 题目答案有误, 用代码算
