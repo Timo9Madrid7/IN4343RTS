@@ -5,3 +5,5 @@
 20170629 Q5（2） R2=1+[(8+3)/6] + [8/6]*2 = 7 然后图那里的话 就是在12那里先执行t2在执行t1，response time就对的上7了
 
 20160407Q5 Bi没有有-1, 书上和PPT都使用了-1 (p.262-Eq.8.10) 
+
+Practice for Non Preemptive Scheduling 8.2 题目答案有误, 用代码算
